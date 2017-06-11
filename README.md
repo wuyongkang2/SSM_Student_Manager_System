@@ -1,0 +1,2 @@
+# SSM_Student_Manager_System
+这个项目使用SpringMVC+MyBatis开发学生管理系统，课程模块包括：管理员登录模块、班级模块、学生模块的开发，前端使用BootStrap+JQuery+JSON完成页面显示效果，使用ajax实现异步刷新操作。
