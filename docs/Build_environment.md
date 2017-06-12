@@ -11,7 +11,17 @@
 	- 选择Project location-->Finish  
 	- 第一次使用会下载相关的jar包，耐心等待...
 
-2. 配置项目环境
+1. 配置项目环境
 
-	- 项目目录结构
-	![](./images/01.jpg)
+	- 项目目录结构，如图所示  
+	
+	![](../../images/01.jpg)
+
+	- 现在不能创建java程序的编写操作，需要在src下创建java和test包  
+	- 在项目中配置tomcat8.5
+	- 修改pom.xml  
+	- 将相关的资源文件拷贝到resouces目录中  
+	- 配置数据库资源文件  
+	- 配置web.xml  
+	- 在资源文件目录中增加mapper.xml文件  
+	
