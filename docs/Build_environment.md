@@ -15,7 +15,7 @@
 
 	- 项目目录结构，如图所示  
 	
-	![](../../images/01.jpg)
+	![](../images/01.jpg)
 
 	- 现在不能创建java程序的编写操作，需要在src下创建java和test包  
 	- 在项目中配置tomcat8.5
