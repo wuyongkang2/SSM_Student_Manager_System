@@ -6,3 +6,5 @@
 	![](../images/15.jpg)  
 	- 修改mybaties.cfg.xml  
 	![](../images/16.jpg)  
+	- 编写IAdminDAO.java的接口
+	![](../images/17.jpg)  
