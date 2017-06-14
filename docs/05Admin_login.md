@@ -2,3 +2,5 @@
 1. 实现数据层编写
 	- 创建vo，名称为Admin.java  
 	![](../images/14.jpg)  
+	- 编写adminMapper.xml
+	![](../images/15.jpg)  
