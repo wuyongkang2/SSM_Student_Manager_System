@@ -37,14 +37,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/adminMapper.xml">
+      <file leaf-file-name="mybatis.cfg.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-              <folding>
-                <marker date="1497452135294" expanded="true" signature="532:604" ph="SELECT lastd... admin" />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,6 +72,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/IDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/vo/Admin.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/adminMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis.cfg.xml" />
       </list>
     </option>
   </component>
@@ -1118,12 +1117,12 @@
       <workItem from="1497173997374" duration="5431000" />
       <workItem from="1497227983315" duration="3299000" />
       <workItem from="1497357843178" duration="2633000" />
-      <workItem from="1497450582913" duration="2202000" />
+      <workItem from="1497450582913" duration="2490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13565000" />
+    <option name="totallyTimeSpent" value="13853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1293,14 +1292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/Mapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1341,6 +1332,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/adminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <marker date="1497452135294" expanded="true" signature="532:604" ph="SELECT lastd... admin" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/ylcto/student/vo/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1362,13 +1363,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/adminMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <marker date="1497452135294" expanded="true" signature="532:604" ph="SELECT lastd... admin" />
-          </folding>
+        <state relative-caret-position="228">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
