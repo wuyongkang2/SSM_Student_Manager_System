@@ -8,3 +8,5 @@
 	![](../images/16.jpg)  
 	- 编写IAdminDAO.java的接口
 	![](../images/17.jpg)  
+	- 编写实现类，名称为AdminDAOImpl  
+	![](../images/18.jpg)  
