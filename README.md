@@ -11,3 +11,5 @@
 ## 2017.06.12-13 [04 管理员模块项目准备](./docs/04Admin_begin.md#eslint)
 
 ## 2017.06.14 [05 管理员登录数据层实现](./docs/05Admin_login.md#eslint)
+
+## 2017.06.15 [06 服务层实现并编写JUNIT测试](./docs/06Admin_login.md#eslint)
