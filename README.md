@@ -13,3 +13,5 @@
 ## 2017.06.14 [05 管理员登录数据层实现](./docs/05Admin_login.md#eslint)
 
 ## 2017.06.15 [06 服务层实现并编写JUNIT测试](./docs/06Server_junit.md#eslint)
+
+## 2017.06.16 [07 JUNIT测试报错，正在修复ing](./docs/07junit_error.md#eslint)
