@@ -7,3 +7,6 @@
 
 1. 修改login.jsp页面  
 	![](../images/28.jpg)  
+2. 验证登录数据是否存在
+	![](../images/29.jpg)  
+	基于jquery验证框架完成的验证操作相对简单，如果不会使用只需要修改admin_login.js文件即可。  

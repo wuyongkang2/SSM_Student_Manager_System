@@ -20,6 +20,4 @@
 
 ## 2017.06.24 [09 管理员登录控制层实现](./docs/09Admin_login_control.md#eslint)
 
-## 2017.06.24 [10 管理员登录前台页面编写](./docs/10Admin_login_front_end.md#eslint)
-
-## 2017.06.24  今天被一智商为负数的弄得我不知道在干嘛.....
+## 2017.06.24 [10 管理员登录前台页面编写](./docs/10Admin_login_front_end.md#eslint)  
