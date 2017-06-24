@@ -8,8 +8,16 @@
         <result property="password" column="password"></result>
         <result property="lastdate" column="lastdate"></result>
     </resultMap>
+    <!--更新最后一次登录日期-->
+    <update id="doUpdateLastDate" parameterType="Admin">
+        UPDATE admin SET lastdate=#{lastdate} WHERE email=#{email}
+    </update>
+
+
     <!--实现登录查询操作-->
     <select id="findLogin" parameterType="Admin" resultType="Admin">
         SELECT email,lastdate FROM admin WHERE email=#{email} AND password=#{password}
     </select>
+
+
 </mapper>
