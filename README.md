@@ -15,3 +15,5 @@
 ## 2017.06.15 [06 服务层实现并编写JUNIT测试](./docs/06Server_junit.md#eslint)
 
 ## 2017.06.16-23 [07 JUNIT测试报错，正在修复ing](./docs/07junit_error.md#eslint)
+
+## 2017.06.24 08 [JUNIT测试修复完毕](#)
