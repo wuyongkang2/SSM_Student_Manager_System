@@ -16,4 +16,6 @@
 
 ## 2017.06.16-23 [07 JUNIT测试报错，正在修复ing](./docs/07junit_error.md#eslint)
 
-## 2017.06.24 08 [JUNIT测试修复完毕](#)
+## 2017.06.24 [08 JUNIT测试修复完毕](#)
+
+## 2017.06.24 [09 管理员登录控制层实现](./docs/09Admin_login_control.md#eslint)

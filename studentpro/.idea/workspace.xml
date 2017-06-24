@@ -2,300 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58e27110-e660-4007-b67e-094198113f32" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/artifacts/studentpro01_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/artifacts/studentpro01_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/artifacts/studentpro_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/artifacts/studentpro_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/kotlinc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__mysql_mysql_connector_java_5_0_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__org_mybatis_mybatis_3_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__org_springframework_spring_aop_4_3_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__org_springframework_spring_beans_4_3_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__org_springframework_spring_context_4_3_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__org_springframework_spring_core_4_3_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__org_springframework_spring_expression_4_3_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__org_springframework_spring_tx_4_3_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__org_springframework_spring_web_4_3_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/logs/my.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/java/cn/ylcto/student/action/AdminLoginAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/java/cn/ylcto/student/dao/IAdminDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/java/cn/ylcto/student/dao/IDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/java/cn/ylcto/student/dao/impl/AdminDAOImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/java/cn/ylcto/student/service/IAdminService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/java/cn/ylcto/student/service/impl/AdminServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/java/cn/ylcto/student/vo/Admin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/java/cn/ylcto/util/MD5Code.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/java/cn/ylcto/util/action/DefaultAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/resources/Messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/resources/Pages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/resources/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/resources/database.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/resources/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/resources/mapper/Mapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/resources/mybatis.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/resources/学生管理系统数据库脚本.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/test/cn/ylcto/test/AdminServiceTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/test/cn/ylcto/test/TestMD5Code.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/jquery/Message_zh_CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/jquery/additional-methods.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/jquery/admin_login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/jquery/jquery.metadata.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/jquery/jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/bootstrap/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/data/flot-data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/data/morris-data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/dist/css/sb-admin-2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/dist/css/sb-admin-2.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/dist/js/sb-admin-2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/dist/js/sb-admin-2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/HELP-US-OUT.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/css/font-awesome.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/less/animated.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/less/extras.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/less/screen-reader.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/less/spinning.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/scss/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/scss/_extras.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/scss/_screen-reader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/scss/_spinning.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/jquery/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/js/sb-admin-2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/metisMenu/metisMenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/metisMenu/metisMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/metisMenu/metisMenu.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/metisMenu/metisMenu.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/morrisjs/morris.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/morrisjs/morris.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/js/morrisjs/morris.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/pages/back/classes/classes_insert.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/pages/forward.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/studentpro.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/studentpro01.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/classes/Messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/classes/Pages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/classes/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/classes/cn/ylcto/student/action/AdminLoginAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/classes/cn/ylcto/student/dao/IAdminDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/classes/cn/ylcto/student/dao/IDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/classes/cn/ylcto/student/dao/impl/AdminDAOImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/classes/cn/ylcto/student/service/IAdminService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/classes/cn/ylcto/student/service/impl/AdminServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/classes/cn/ylcto/student/vo/Admin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/classes/cn/ylcto/util/MD5Code.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/classes/cn/ylcto/util/action/DefaultAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/classes/database.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/classes/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/classes/mapper/Mapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/classes/mapper/adminMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/classes/mybatis.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/classes/学生管理系统数据库脚本.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/classes/Messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/classes/Pages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/classes/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/classes/cn/ylcto/student/action/AdminLoginAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/classes/cn/ylcto/student/dao/IAdminDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/classes/cn/ylcto/student/dao/IDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/classes/cn/ylcto/student/dao/impl/AdminDAOImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/classes/cn/ylcto/student/service/IAdminService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/classes/cn/ylcto/student/service/impl/AdminServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/classes/cn/ylcto/student/vo/Admin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/classes/cn/ylcto/util/MD5Code.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/classes/cn/ylcto/util/action/DefaultAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/classes/database.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/classes/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/classes/mapper/Mapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/classes/mapper/adminMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/classes/mybatis.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/classes/学生管理系统数据库脚本.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/c3p0-0.9.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/commons-beanutils-1.9.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/commons-fileupload-1.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/commons-io-2.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/commons-lang-2.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/ezmorph-1.0.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/mchange-commons-java-0.2.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/mybatis-3.4.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/mysql-connector-java-5.0.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/quartz-2.2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/slf4j-api-1.7.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/slf4j-log4j12-1.7.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/spring-aop-4.3.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/spring-aspects-4.3.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/spring-beans-4.3.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/spring-context-4.3.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/spring-context-support-4.3.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/spring-core-4.3.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/spring-expression-4.3.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/spring-jdbc-4.3.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/spring-tx-4.3.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/spring-web-4.3.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/lib/spring-webmvc-4.3.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/jquery/Message_zh_CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/jquery/additional-methods.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/jquery/admin_login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/jquery/jquery.metadata.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/jquery/jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/bootstrap/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/data/flot-data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/data/morris-data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/dist/css/sb-admin-2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/dist/css/sb-admin-2.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/dist/js/sb-admin-2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/dist/js/sb-admin-2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/HELP-US-OUT.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/css/font-awesome.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/less/animated.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/less/extras.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/less/screen-reader.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/less/spinning.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/scss/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/scss/_extras.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/scss/_screen-reader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/scss/_spinning.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/jquery/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/js/sb-admin-2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/metisMenu/metisMenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/metisMenu/metisMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/metisMenu/metisMenu.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/metisMenu/metisMenu.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/morrisjs/morris.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/morrisjs/morris.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/js/morrisjs/morris.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/pages/back/classes/classes_insert.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/studentpro/pages/forward.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/test-classes/cn/ylcto/test/AdminServiceTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../studentpro01/target/test-classes/cn/ylcto/test/TestMD5Code.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/action/AdminLoginAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/ylcto/util/action/DefaultAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../studentpro01/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/resources/mapper/adminMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/adminMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../studentpro01/src/main/webapp/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Messages.properties" afterPath="$PROJECT_DIR$/src/main/resources/Messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Pages.properties" afterPath="$PROJECT_DIR$/src/main/resources/Pages.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -317,7 +28,54 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="AdminLoginAction.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ylcto/student/action/AdminLoginAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-122">
+              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1525#1526#0" expanded="true" />
+                <element signature="e#1553#1554#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Messages.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Messages.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ylcto/util/action/DefaultAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pages.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Pages.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -348,6 +106,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/test/cn/ylcto/test/AdminServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Messages.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/util/action/DefaultAction.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Pages.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/action/AdminLoginAction.java" />
       </list>
     </option>
   </component>
@@ -513,6 +275,48 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ylcto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studentpro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studentpro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ylcto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="student" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -526,7 +330,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1094,7 +898,7 @@
       <workItem from="1498270684386" duration="938000" />
       <workItem from="1498271650654" duration="339000" />
       <workItem from="1498272012684" duration="490000" />
-      <workItem from="1498272522378" duration="516000" />
+      <workItem from="1498272522378" duration="6717000" />
     </task>
     <servers />
   </component>
@@ -1119,10 +923,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6059000" />
+    <option name="totallyTimeSpent" value="12260000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1144,7 +949,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11456628" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11456628" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1215,6 +1020,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,6 +1028,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <marker date="1492097698655" expanded="true" signature="516:574" ph="UPDATE admin... " />
+            <marker date="1492097698655" expanded="true" signature="688:766" ph="SELECT email... admin" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1237,6 +1047,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1251,6 +1062,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1258,6 +1070,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <marker date="1492097698655" expanded="true" signature="516:574" ph="UPDATE admin... " />
+            <marker date="1492097698655" expanded="true" signature="688:766" ph="SELECT email... admin" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1273,6 +1089,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1287,6 +1104,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,6 +1120,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1309,6 +1128,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <marker date="1492097698655" expanded="true" signature="516:574" ph="UPDATE admin... " />
+            <marker date="1492097698655" expanded="true" signature="688:766" ph="SELECT email... admin" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1324,6 +1147,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1417,6 +1241,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1424,13 +1249,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ylcto/student/vo/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1465,17 +1284,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Pages.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/adminMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <marker date="1492097698655" expanded="true" signature="516:574" ph="UPDATE admin... " />
+            <marker date="1492097698655" expanded="true" signature="688:766" ph="SELECT email... admin" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1500,6 +1316,52 @@
         <state relative-caret-position="222">
           <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ylcto/student/vo/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ylcto/util/action/DefaultAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Pages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ylcto/student/action/AdminLoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1553#1554#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
