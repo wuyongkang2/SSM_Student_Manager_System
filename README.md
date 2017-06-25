@@ -25,3 +25,5 @@
 ## 2017.06.25 [11 更新最后一次登录日期（数据层实现）](./docs/11update_last_login_date（data）.md#eslint)  
 
 ## 2017.06.25 [12 更新最后一次登录日期（业务层实现）](./docs/12update_last_login_date（bussiness）.md#eslint)  
+
+## 2017.06.25 [13 班级增加模块（数据层实现）](./docs/13class_add（data）.md#eslint)  
