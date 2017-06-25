@@ -6,6 +6,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/vo/Classes.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/classesMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis.cfg.xml" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/impl/IClassesDAO.java" afterPath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/IClassesDAO.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classesMapper.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="classesMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/classesMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -51,6 +52,16 @@
               <folding>
                 <marker date="1498382738153" expanded="true" signature="265:322" ph="INSERT INTO classes... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis.cfg.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="68" lean-forward="false" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/impl/ClassesDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/impl/ClassesDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/classesMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis.cfg.xml" />
       </list>
     </option>
   </component>
@@ -1190,7 +1202,7 @@
       <workItem from="1498312223435" duration="1202000" />
       <workItem from="1498316714428" duration="662000" />
       <workItem from="1498358090290" duration="3896000" />
-      <workItem from="1498374841910" duration="4207000" />
+      <workItem from="1498374841910" duration="4587000" />
     </task>
     <servers />
   </component>
@@ -1215,7 +1227,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28234000" />
+    <option name="totallyTimeSpent" value="28614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1477,14 +1489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/forward.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1702,6 +1706,14 @@
           <folding>
             <marker date="1498382738153" expanded="true" signature="265:322" ph="INSERT INTO classes... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="68" lean-forward="false" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -3,7 +3,7 @@
 
 1. 修改遗留问题  
 	![](../images/30.jpg)  
-2. 编写adminMapper.xml
+1. 编写adminMapper.xml
 	![](../images/31.jpg)  
-3. 编写AdminDAOImpl.java
+1. 编写AdminDAOImpl.java
 	![](../images/32.jpg)  
