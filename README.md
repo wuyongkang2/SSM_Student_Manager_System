@@ -22,4 +22,4 @@
 
 ## 2017.06.24 [10 管理员登录前台页面编写](./docs/10Admin_login_front_end.md#eslint)  
 
-## 2017.06.24 [11 更新最后一次登录日期（数据层实现）](./docs/11update_last_login_date（data）.md#eslint)  
+## 2017.06.25 [11 更新最后一次登录日期（数据层实现）](./docs/11update_last_login_date（data）.md#eslint)  
