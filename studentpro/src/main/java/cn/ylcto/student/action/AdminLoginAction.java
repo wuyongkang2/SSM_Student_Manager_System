@@ -12,6 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.text.SimpleDateFormat;
 
 /**
  * Created by kangkang on 2017/6/24.
@@ -34,7 +35,8 @@ public class AdminLoginAction extends DefaultAction {
             System.out.println();
             if (vo != null){
                 super.setMsgAndPath(mav,"admin.insert.success","admin.login.success");
-                request.getSession().setAttribute("lastdate",vo.getLastdate()); //取得最后一次登录日期操作
+                request.getSession().setAttribute("email",vo.getEmail());
+                request.getSession().setAttribute("lastdate",new SimpleDateFormat("yyyy-MM-dd").format(vo.getLastdate())); //取得最后一次登录日期操作
             }else{
                 super.setMsgAndPath(mav,"admin.insert.failure","admin.login.failure");
             }
