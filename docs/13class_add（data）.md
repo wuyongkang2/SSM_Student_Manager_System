@@ -6,3 +6,6 @@
 	![](../images/35.jpg)  
 1. 编写实现类  
 	![](../images/36.jpg)  
+1. 编写classesMapper.xml文件  
+	![](../images/37.jpg)  
+	
