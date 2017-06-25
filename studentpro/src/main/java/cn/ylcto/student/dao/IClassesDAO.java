@@ -1,6 +1,5 @@
-package cn.ylcto.student.dao.impl;
+package cn.ylcto.student.dao;
 
-import cn.ylcto.student.dao.IDAO;
 import cn.ylcto.student.vo.Classes;
 
 /**
