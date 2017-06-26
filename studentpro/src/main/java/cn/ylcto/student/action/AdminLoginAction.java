@@ -22,7 +22,7 @@ import java.text.SimpleDateFormat;
 public class AdminLoginAction extends DefaultAction {
     @Resource
     private IAdminService adminService;
-//    @Autowired
+    @Autowired
     private HttpServletRequest request;
 
     @RequestMapping(value = "admin_login")
@@ -32,7 +32,6 @@ public class AdminLoginAction extends DefaultAction {
             //实现登录密码加盐操作
             admin.setPassword(new MD5Code().getMD5ofStr(admin.getPassword()+admin.getEmail()));
             Admin vo = this.adminService.login(admin); //登陆成功还要取得最后一次登陆日期
-            System.out.println();
             if (vo != null){
                 super.setMsgAndPath(mav,"admin.insert.success","admin.login.success");
                 request.getSession().setAttribute("email",vo.getEmail());
