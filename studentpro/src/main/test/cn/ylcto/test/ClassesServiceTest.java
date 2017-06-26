@@ -25,5 +25,4 @@ public class ClassesServiceTest {
         vo.setNote("这是一个新开的java培训班");
         TestCase.assertTrue(this.classesService.insert(vo));
     }
-
 }

@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58e27110-e660-4007-b67e-094198113f32" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/test/cn/ylcto/test/ClassesServiceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../docs/14class_add（bussiness_and_junit）.md" afterPath="$PROJECT_DIR$/../docs/14class_add（bussiness_and_junit）.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/my.log" afterPath="$PROJECT_DIR$/logs/my.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/action/AdminLoginAction.java" afterPath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/action/AdminLoginAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/impl/ClassesDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/impl/ClassesDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mybatis.cfg.xml" afterPath="$PROJECT_DIR$/target/classes/mybatis.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/test/cn/ylcto/test/ClassesServiceTest.java" afterPath="$PROJECT_DIR$/src/main/test/cn/ylcto/test/ClassesServiceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,9 +41,11 @@
       <file leaf-file-name="ClassesServiceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/test/cn/ylcto/test/ClassesServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,9 +96,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/mybatis.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/service/IClassesService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/service/impl/ClassesServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/test/cn/ylcto/test/ClassesServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/impl/ClassesDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/action/AdminLoginAction.java" />
+        <option value="$PROJECT_DIR$/src/main/test/cn/ylcto/test/ClassesServiceTest.java" />
       </list>
     </option>
   </component>
@@ -1124,7 +1121,7 @@
       <workItem from="1498316714428" duration="662000" />
       <workItem from="1498358090290" duration="3896000" />
       <workItem from="1498374841910" duration="5467000" />
-      <workItem from="1498440987914" duration="1265000" />
+      <workItem from="1498440987914" duration="1566000" />
     </task>
     <servers />
   </component>
@@ -1161,7 +1158,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30759000" />
+    <option name="totallyTimeSpent" value="31060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1625,9 +1622,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/cn/ylcto/test/ClassesServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
