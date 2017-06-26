@@ -22,7 +22,7 @@ public class ClassesDAOImpl extends SqlSessionDaoSupport implements IClassesDAO 
     }
     @Override
     public boolean doCreate(Classes vo) throws SQLException {
-        return super.getSqlSession().insert("ClassesNS.doCreate",vo) > 0;
+        return super.getSqlSession().insert("classesNS.doCreate",vo) > 0;
     }
 
     @Override

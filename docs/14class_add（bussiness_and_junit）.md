@@ -4,3 +4,5 @@
 	![](../images/39.jpg)  
 1. 编写接口实现类，名称为ClassesServiceImpl.java  
 	![](../images/40.jpg)  
+1. 编写测试数据  
+	![](../images/41.jpg)  
