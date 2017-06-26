@@ -29,7 +29,12 @@
 	- 修改pom.xml  
 	- 将相关的资源文件拷贝到resouces目录中  
 	- 配置数据库资源文件  
-		![](../images/12.jpg)
+		```java
+		db.driverClass=org.gjt.mm.mysql.Driver
+		db.url=jdbc:mysql://localhost:3306/ylcto
+		db.user=root
+		db.password=123456
+		```
 	- 配置web.xml  
 	- 在资源文件目录中增加mapper.xml文件  
 	
