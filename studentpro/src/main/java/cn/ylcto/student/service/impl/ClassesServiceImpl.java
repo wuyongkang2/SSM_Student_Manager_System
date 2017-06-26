@@ -16,6 +16,9 @@ public class ClassesServiceImpl implements IClassesService {
     private IClassesDAO classesDAO;
     @Override
     public boolean insert(Classes vo) throws Exception {
-        return this.classesDAO.doCreate(vo);
+        if (this.classesDAO.findByCname(vo.getCname()) == null){
+            return this.classesDAO.doCreate(vo);
+        }
+        return false;
     }
 }

@@ -21,7 +21,7 @@ public class ClassesServiceTest {
     @Test
     public void insert()throws Exception{
         Classes vo = new Classes();
-        vo.setCname("YL003");
+        vo.setCname("YL004");
         vo.setNote("这是一个新开的java培训班");
         TestCase.assertTrue(this.classesService.insert(vo));
     }

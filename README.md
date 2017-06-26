@@ -29,3 +29,5 @@
 ## 2017.06.25 [13 班级增加模块（数据层实现）](./docs/13class_add（data）.md#eslint)  
 
 ## 2017.06.26 [14 班级增加（业务层实现与JUNIT测试）](./docs/14class_add（bussiness_and_junit）.md#eslint)  
+
+## 2017.06.26 [15 班级增加（完善业务）](./docs/15class_add（Perfect_business）.md#eslint)  

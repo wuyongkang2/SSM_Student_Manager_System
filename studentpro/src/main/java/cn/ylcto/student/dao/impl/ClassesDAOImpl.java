@@ -54,4 +54,9 @@ public class ClassesDAOImpl extends SqlSessionDaoSupport implements IClassesDAO 
     public Integer getAllCount(String column, String keyWord) throws SQLException {
         return null;
     }
+
+    @Override
+    public Classes findByCname(String cname) throws SQLException {
+        return super.getSqlSession().selectOne("classesNS.findByCname",cname);
+    }
 }
