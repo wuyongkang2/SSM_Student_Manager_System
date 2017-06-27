@@ -7,7 +7,7 @@
 
 ### 2017.06.11 [03 搭建开发环境(使用IDEA2017开发工具)](./docs/chapter01_Project_development_preparation.md#03搭建开发环境使用idea2017开发工具)  
 
-### 2017.06.12-13 [04 管理员模块项目准备](./docs/chapter01_Project_development_preparation.md#04管理员模块项目准备)
+### 2017.06.12-13 [04 管理员模块项目准备](/docs/chapter01_Project_development_preparation.md#04管理员模块项目准备)
 
 ### 2017.06.14 [05 管理员登录数据层实现](./docs/05Admin_login.md#eslint)
 
