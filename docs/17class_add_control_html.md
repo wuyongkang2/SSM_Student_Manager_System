@@ -105,3 +105,28 @@
    <script src="js/dist/js/sb-admin-2.js"></script>
    ```
 
+3. 编写表单
+
+   ```html
+   <form action="<%=basePath%>pages/back/classes/classes_insert.action" method="post" class="form-horizontal" id="insertForm">
+           <div class="form-group">
+               <label for="cname" class="control-label col-md-3">班级名称</label>
+               <div class=col-md-5>
+                   <input type="text" class="form-control" name="cname" id="cname" placeholder="请输入与班级名称">
+               </div>
+           </div>
+           <div class="form-group">
+               <label for="cname" class="control-label col-md-3">班级名称</label>
+               <div class=col-md-5>
+                   <textarea class="form-control" name="note" id="note" placeholder="请输入班级简介" ></textarea>
+               </div>
+           </div>
+           <div class="form-group">
+               <div class="col-md-4 col-md-offset-6">
+                   <button type="submit" class="btn btn-success btn-sm">增加</button>
+                   <button type="reset" class="btn btn-danger btn-sm">重置</button>
+               </div>
+           </div>
+       </form>
+   ```
+

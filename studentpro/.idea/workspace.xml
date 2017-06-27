@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58e27110-e660-4007-b67e-094198113f32" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jquery/classes_insert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/back/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/footer.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/ylcto/student/action/AdminLoginAction.class" afterPath="$PROJECT_DIR$/target/classes/cn/ylcto/student/action/AdminLoginAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/action/AdminLoginAction.class" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/action/AdminLoginAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/cn/ylcto/test/ClassesServiceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/cn/ylcto/test/ClassesServiceTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../docs/17class_add_control_html.md" afterPath="$PROJECT_DIR$/../docs/17class_add_control_html.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/my.log" afterPath="$PROJECT_DIR$/logs/my.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/action/AdminLoginAction.java" afterPath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/action/AdminLoginAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Pages.properties" afterPath="$PROJECT_DIR$/src/main/resources/Pages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/test/cn/ylcto/test/ClassesServiceTest.java" afterPath="$PROJECT_DIR$/src/main/test/cn/ylcto/test/ClassesServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/back/classes/classes_insert.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/back/classes/classes_insert.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Messages.properties" afterPath="$PROJECT_DIR$/target/classes/Messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Pages.properties" afterPath="$PROJECT_DIR$/target/classes/Pages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/Messages.properties" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/Messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/Pages.properties" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/Pages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/mybatis.cfg.xml" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/mybatis.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/pages/back/classes/classes_insert.jsp" afterPath="$PROJECT_DIR$/target/studentpro/pages/back/classes/classes_insert.jsp" />
-    </list>
+    <list default="true" id="58e27110-e660-4007-b67e-094198113f32" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +26,8 @@
       <file leaf-file-name="classes_insert.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/back/classes/classes_insert.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+            <state relative-caret-position="239">
+              <caret line="38" column="11" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="38" selection-end-column="11" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -58,21 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classes_insert.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="classes_insert.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/classes_insert.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/footer.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="250">
+              <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -81,8 +58,8 @@
       <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="85" column="10" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="85" selection-end-column="10" />
+            <state relative-caret-position="289">
+              <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -1117,7 +1094,7 @@
       <workItem from="1498464511173" duration="4087000" />
       <workItem from="1498482908956" duration="2447000" />
       <workItem from="1498525298588" duration="4560000" />
-      <workItem from="1498543592073" duration="2259000" />
+      <workItem from="1498543592073" duration="2437000" />
     </task>
     <servers />
   </component>
@@ -1154,7 +1131,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52827000" />
+    <option name="totallyTimeSpent" value="53005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -1574,10 +1551,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/back/classes/classes_insert.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        <state relative-caret-position="239">
+          <caret line="38" column="11" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="38" selection-end-column="11" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -1586,24 +1579,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/classes_insert.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="85" column="10" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="85" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="48" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="3" />
           <folding />
         </state>
       </provider>
