@@ -132,7 +132,7 @@
 
 4. 编写验证
 
-   ```html
+   ```javascript
    $(function() {  // 在页面加载的时候执行
        $("#insertForm").validate({ // 定义验证规则
            debug: true,  // 采用调试模式，表单不会自动提交
@@ -153,4 +153,5 @@
    ```
 
    ​
+
 
