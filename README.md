@@ -33,3 +33,4 @@
 ## 2017.06.26 [15 班级增加（完善业务）](./docs/15class_add（Perfect_business）.md#eslint)  
 
 ## 2017.06.26 [16 班级增加（控制层实现）](./docs/16class_add_control.md#eslint)  
+## 2017.06.27 [17 班级增加（编写页面）](./docs/17class_add_control_html.md#eslint)  

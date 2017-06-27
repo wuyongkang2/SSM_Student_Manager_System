@@ -22,7 +22,7 @@ import java.text.SimpleDateFormat;
 public class AdminLoginAction extends DefaultAction {
     @Resource
     private IAdminService adminService;
-//    @Autowired
+    @Autowired
     private HttpServletRequest request;
 
     @RequestMapping(value = "admin_login")

@@ -6,8 +6,10 @@
     <!--配置别名-->
 	<typeAliases>
         <typeAlias type="cn.ylcto.student.vo.Admin" alias="Admin"/>
+        <typeAlias type="cn.ylcto.student.vo.Classes" alias="Classes"/>
     </typeAliases>
     <mappers>
         <mapper resource="mapper/adminMapper.xml"/>
+        <mapper resource="mapper/classesMapper.xml"/>
     </mappers>
 </configuration>
