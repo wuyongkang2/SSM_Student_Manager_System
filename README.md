@@ -25,14 +25,16 @@
 
 ### 2017.06.25 [12 更新最后一次登录日期（业务层实现）](/docs/chapter02_Admin.md#12更新最后一次登录日期业务层实现)  
 ## 章节③   班级模块开发
-### 2017.06.25 [13 班级增加模块（数据层实现）](/docs/13class_add（data）.md#eslint)  
+### 2017.06.25 [13 班级增加模块（数据层实现）](/docs/chapter03_Class.md#13班级增加模块数据层实现)  
 
-### 2017.06.26 [14 班级增加（业务层实现与JUNIT测试）](/docs/14class_add（bussiness_and_junit）.md#eslint)  
+### 2017.06.26 [14 班级增加（业务层实现与JUNIT测试）](/docs/chapter03_Class.md#14班级增加业务层实现与junit测试)  
 
-### 2017.06.26 [15 班级增加（完善业务）](/docs/15class_add（Perfect_business）.md#eslint)  
+### 2017.06.26 [15 班级增加（完善业务）](/docs/chapter03_Class.md#15班级增加完善业务)  
 
-### 2017.06.26 [16 班级增加（控制层实现）](/docs/16class_add_control.md#eslint)  
+### 2017.06.26 [16 班级增加（控制层实现）](/docs/chapter03_Class.md#16班级增加控制层实现)  
 
-### 2017.06.27 [17 班级增加（编写页面）](/docs/17class_add_control_html.md#eslint)  
+### 2017.06.27 [17 班级增加（编写页面）](/docs/chapter03_Class.md#17班级增加（编写页面）)  
 
-### 2017.06.27 [18 班级列表（数据层实现）](/docs/18class_list（data）.md#eslint)
+### 2017.06.27 [18 班级列表（数据层实现）](/docs/chapter03_Class.md#18班级列表数据层实现)  
+
+### 2017.06.27 [19 班级列表（服务层实现与JUNIT测试）](/docs/chapter03_Class.md#19班级列表服务层实现与junit测试)  
