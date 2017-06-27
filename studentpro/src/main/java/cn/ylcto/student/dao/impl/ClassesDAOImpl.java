@@ -42,7 +42,7 @@ public class ClassesDAOImpl extends SqlSessionDaoSupport implements IClassesDAO 
 
     @Override
     public List<Classes> findAll() throws SQLException {
-        return null;
+        return super.getSqlSession().selectList("classesNS.findAll");
     }
 
     @Override

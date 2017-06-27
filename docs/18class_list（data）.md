@@ -9,3 +9,12 @@
        </select>
    ```
 
+2. 实现findAll()方法
+
+   ```java
+   @Override
+       public List<Classes> findAll() throws SQLException {
+           return super.getSqlSession().selectList("classesNS.findAll");
+       }
+   ```
+
