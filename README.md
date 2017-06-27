@@ -1,10 +1,9 @@
 # SSM学生信息管理系统  
 
----
 ## 章节①   项目开发准备
-### 2017.06.11 [01 项目准备](./docs/chapter01_Project_development_preparation.md#01项目准备)  
+### 2017.06.11 [01 项目准备](./docs/chapter01_Project_development_preparation.md#01)  
 
-### 2017.06.11 [02 数据库设计(使用PD设计工具)](./docs/chapter01_Project_development_preparation.md#02数据库设计(使用PD设计工具))  
+### 2017.06.11 [02 数据库设计(使用PD设计工具)](./docs/chapter01_Project_development_preparation.md#02)  
 
 ### 2017.06.11 [03 搭建开发环境(使用IDEA2017开发工具)](./docs/chapter01_Project_development_preparation.md#03搭建开发环境(使用IDEA2017开发工具))  
 
