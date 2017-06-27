@@ -34,3 +34,5 @@
 
 ## 2017.06.26 [16 班级增加（控制层实现）](./docs/16class_add_control.md#eslint)  
 ## 2017.06.27 [17 班级增加（编写页面）](./docs/17class_add_control_html.md#eslint)  
+
+## 2017.06.27 [18 班级列表（数据层实现）](./docs/18class_list（data）.md#eslint)
