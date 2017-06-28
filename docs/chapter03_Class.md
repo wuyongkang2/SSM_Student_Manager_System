@@ -481,3 +481,13 @@
        return this.classesDAO.findAll();
    }
    ```
+
+3. 编写JUNIT测试
+
+   ```java
+   @Test
+   public void list() throws Exception{
+       System.out.println(this.classesService.list());
+   }
+   ```
+

@@ -33,4 +33,13 @@ public class Classes implements Serializable {
     public void setNote(String note) {
         this.note = note;
     }
+
+    @Override
+    public String toString() {
+        return "Classes{" +
+                "cid=" + cid +
+                ", cname='" + cname + '\'' +
+                ", note='" + note + '\'' +
+                '}';
+    }
 }
