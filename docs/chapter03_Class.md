@@ -160,12 +160,13 @@
   import org.junit.Test;
   import org.springframework.context.ApplicationContext;
   import org.springframework.context.support.ClassPathXmlApplicationContext;
+  ```
 
 
   public class ClassesServiceTest {
       private static ApplicationContext ctx ;
       private static IClassesService classesService;
-
+    
       static {
           ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
           classesService = ctx.getBean("classesServiceImpl",IClassesService.class);
@@ -460,6 +461,17 @@
    ```
 
 ### 19班级列表（服务层实现与JUNIT测试）
+
+1. 定义服务层接口  
+
+   ```java
+   /**
+    * 实现全部数据列出操作
+    * @return 成功返回true，失败返回false；
+    * @throws SQLException
+    */
+   public List<Classes> list() throws SQLException;
+   ```
 
 
 
