@@ -6,16 +6,25 @@ import cn.ylcto.util.action.DefaultAction;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
-import javax.annotation.Resource;
 
-/**
- * Created by kangkang on 2017/6/26.
- */
+import javax.annotation.Resource;
+import java.sql.SQLException;
+
 @Controller
 @RequestMapping(value = "/pages/back/classes/*")
-public class ClassesAction extends DefaultAction {
+public class ClassesAction extends DefaultAction{
     @Resource
     private IClassesService classesService;
+
+    @RequestMapping(value = "clsses_list")
+    public void list(){
+        try {
+            super.request.setAttribute("ClassesAll",this.classesService.list());
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
     @RequestMapping(value = "classes_insert")
     public ModelAndView insert(Classes vo){
         ModelAndView mav = new ModelAndView(super.getResource("pages.forward"));
@@ -30,6 +39,7 @@ public class ClassesAction extends DefaultAction {
         }
         return mav;
     }
+
     @Override
     public String getText() {
         return "班级";

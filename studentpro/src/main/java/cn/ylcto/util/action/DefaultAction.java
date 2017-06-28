@@ -1,9 +1,11 @@
 package cn.ylcto.util.action;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import java.util.Locale;
 
 /**
@@ -12,6 +14,9 @@ import java.util.Locale;
 public abstract class DefaultAction {
     @Resource
     private MessageSource messageSource;
+
+    @Autowired
+    protected HttpServletRequest request = null;
 
     /**
      * 可以根据key取得资源的内容

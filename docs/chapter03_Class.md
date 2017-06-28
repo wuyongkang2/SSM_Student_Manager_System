@@ -491,3 +491,22 @@
    }
    ```
 
+### 20班级列表（控制层实现）
+
+1. 第一种方式实现（在页面中使用jstl）
+
+   ```java
+   @Autowired
+   protected HttpServletRequest request = null;
+   ```
+
+   ```java
+   @RequestMapping(value = "clsses_list")
+   public void list(){
+       try {
+           super.request.setAttribute("ClassesAll",this.classesService.list());
+       } catch (SQLException e) {
+           e.printStackTrace();
+       }
+   }
+   ```

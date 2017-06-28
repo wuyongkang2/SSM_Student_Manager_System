@@ -18,4 +18,9 @@
         SELECT cid,cname,note FROM classes WHERE cname=#{cname}
     </select>
 
+    <!--查询全部数据-->
+    <select id="findAll" parameterType="java.util.List" resultMap="classesResultMap">
+        SELECT cid,cname,note FROM classes
+    </select>
+
 </mapper>
