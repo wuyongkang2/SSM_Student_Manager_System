@@ -18,11 +18,7 @@ public class ClassesAction extends DefaultAction{
 
     @RequestMapping(value = "clsses_list")
     public void list(){
-        try {
-            super.request.setAttribute("ClassesAll",this.classesService.list());
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+
     }
 
     @RequestMapping(value = "classes_insert")
