@@ -6,6 +6,8 @@ import cn.ylcto.student.vo.Classes;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.sql.SQLException;
+import java.util.List;
 
 /**
  * Created by kangkang on 2017/6/26.
@@ -20,5 +22,10 @@ public class ClassesServiceImpl implements IClassesService {
             return this.classesDAO.doCreate(vo);
         }
         return false;
+    }
+
+    @Override
+    public List<Classes> list() throws SQLException {
+        return this.classesDAO.findAll();
     }
 }

@@ -473,6 +473,11 @@
    public List<Classes> list() throws SQLException;
    ```
 
+2. 实现服务层接口
 
-
-
+   ```java
+   @Override
+   public List<Classes> list() throws SQLException {
+       return this.classesDAO.findAll();
+   }
+   ```
