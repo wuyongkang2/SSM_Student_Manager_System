@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58e27110-e660-4007-b67e-094198113f32" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/vo/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../docs/chapter03_Class.md" afterPath="$PROJECT_DIR$/../docs/chapter03_Class.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/vo/Classes.java" afterPath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/vo/Classes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/jquery/classes_list.js" afterPath="$PROJECT_DIR$/target/studentpro/jquery/classes_list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../docs/chapter04_Student.md" afterPath="$PROJECT_DIR$/../docs/chapter04_Student.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,17 +36,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="studentMapper.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="studentMapper.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="9" />
+              <folding>
+                <marker date="1498746410674" expanded="true" signature="266:379" ph="INSERT INTO student... " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mybatis.cfg.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mybatis.cfg.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="172">
@@ -142,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/vo/Classes.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/vo/Student.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml" />
       </list>
     </option>
   </component>
@@ -1269,7 +1266,7 @@
       <workItem from="1498543592073" duration="4502000" />
       <workItem from="1498657951245" duration="3024000" />
       <workItem from="1498701308744" duration="3362000" />
-      <workItem from="1498740332114" duration="4038000" />
+      <workItem from="1498740332114" duration="4374000" />
     </task>
     <servers />
   </component>
@@ -1306,7 +1303,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65494000" />
+    <option name="totallyTimeSpent" value="65830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1718,19 +1715,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="9" column="68" lean-forward="false" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <marker date="1498746410674" expanded="true" signature="266:379" ph="INSERT INTO student... " />
+          </folding>
         </state>
       </provider>
     </entry>

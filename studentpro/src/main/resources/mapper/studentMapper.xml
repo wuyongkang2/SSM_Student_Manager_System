@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="">
-   
+<mapper namespace="StudentNS">
+   <!-- 实现数据增加操作 -->
+    <insert id="doCreate" parameterType="Student">
+        INSERT INTO student(sid,name,age,sex,address,cid) VALUES (#{sid},#{name},#{age},#{sex},#{address},#{classes.cid})
+    </insert>
 </mapper>
