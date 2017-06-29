@@ -131,3 +131,24 @@
    </mapper>
    ```
 
+3. 编写mybatis.cfg.xml文件
+
+   ```xml
+   <?xml version="1.0" encoding="UTF-8" ?>
+   <!DOCTYPE configuration   
+       PUBLIC "-//mybatis.org//DTD Config 3.0//EN"   
+       "http://mybatis.org/dtd/mybatis-3-config.dtd">
+   <configuration>
+       <!--配置别名-->
+      <typeAliases>
+           <typeAlias type="cn.ylcto.student.vo.Admin" alias="Admin"/>
+           <typeAlias type="cn.ylcto.student.vo.Classes" alias="Classes"/>
+           <typeAlias type="cn.ylcto.student.vo.Student" alias="Student"/>
+       </typeAliases>
+       <mappers>
+           <mapper resource="mapper/adminMapper.xml"/>
+           <mapper resource="mapper/classesMapper.xml"/>
+           <mapper resource="mapper/studentMapper.xml"/>
+       </mappers>
+   </configuration>
+   ```
