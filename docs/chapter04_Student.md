@@ -167,3 +167,36 @@
    public interface IStudentDAO extends IDAO<String,Student> {
    }
    ```
+
+5. 编写IStudentDAO的实现类
+
+   ```java
+   package cn.ylcto.student.dao.impl;
+
+   import cn.ylcto.student.dao.IStudentDAO;
+   import cn.ylcto.student.vo.Student;
+   import org.apache.ibatis.session.SqlSessionFactory;
+   import org.mybatis.spring.support.SqlSessionDaoSupport;
+   import org.springframework.beans.factory.annotation.Autowired;
+   import org.springframework.stereotype.Repository;
+
+   import java.sql.SQLException;
+   import java.util.List;
+   import java.util.Set;
+
+   /**
+    * Created by kangkang on 2017/6/29.
+    */
+   @Repository
+   public class StudentDAOImpl extends SqlSessionDaoSupport implements IStudentDAO {
+       @Autowired
+       public StudentDAOImpl(SqlSessionFactory sqlSessionFactory){
+           super.setSqlSessionFactory(sqlSessionFactory);
+       }
+
+       @Override
+       public boolean doCreate(Student vo) throws SQLException {
+           return super.getSqlSession().insert("StudentNS.doCreate",vo)>0;
+       }
+   }
+   ```
