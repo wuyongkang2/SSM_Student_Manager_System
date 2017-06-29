@@ -17,7 +17,7 @@ public class ClassesAction extends DefaultAction{
     @Resource
     private IClassesService classesService;
 
-    @RequestMapping(value = "clsses_list")
+    @RequestMapping(value = "classes_list")
     public void list(HttpServletResponse response){
         try {
             super.printObjectToList(response,"allClasses",this.classesService.list());

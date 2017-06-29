@@ -65,7 +65,7 @@
                                 <a href="/pages/back/classes/classes_insert.jsp">增加班级</a>
                             </li>
                             <li>
-                                <a href="/pages/back/classes/classes_list.action">班级列表</a>
+                                <a href="/pages/back/classes/classes_list.jsp">班级列表</a>
                             </li>
                         </ul>
                     </li>
