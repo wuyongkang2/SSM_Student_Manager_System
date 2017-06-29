@@ -15,7 +15,7 @@
 <!-- 主体内容编写 -->
 <div id="page-wrapper">
     <div class="col-md-12">
-        <table class="table table-bordered" id="classesTable">
+        <table class="table table-bordered table-hover" id="classesTable">
             <tr>
                 <th>班级编号</th>
                 <th>班级名称</th>
