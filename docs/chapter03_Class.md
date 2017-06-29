@@ -616,4 +616,3 @@
        $("#classesTable").append($(str));
    }
    ```
-

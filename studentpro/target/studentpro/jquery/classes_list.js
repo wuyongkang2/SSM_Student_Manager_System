@@ -5,7 +5,6 @@ $(function () {
 function loadDate() {
     $.post("pages/back/classes/classes_list.action",{},function (obj) {
         $("#classesTable tr:gt(0)").remove();
-        alert("22222");
         for (var x = 0;x <obj.allClasses.length;x++){
             addRow(obj.allClasses[x].cid,obj.allClasses[x].cname,obj.allClasses[x].note);
         }
