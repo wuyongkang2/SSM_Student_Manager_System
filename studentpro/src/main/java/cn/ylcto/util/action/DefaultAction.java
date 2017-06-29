@@ -1,11 +1,15 @@
 package cn.ylcto.util.action;
 
+import cn.ylcto.util.ObjectToJSON;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.util.List;
 import java.util.Locale;
 
 /**
@@ -45,6 +49,47 @@ public abstract class DefaultAction {
             mav.addObject("path",this.messageSource.getMessage(path,null,Locale.getDefault()));
         }
     }
+
+    public void printObjectToJson(HttpServletResponse response,Object vo){
+        response.setCharacterEncoding("UTF-8");
+        try {
+            response.getWriter().print(ObjectToJSON.convertorObjectToJSON(vo));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 将list集合数据转换为Json
+     * @param response
+     * @param name
+     * @param all
+     */
+    public void printObjectToList(HttpServletResponse response,String name, List<?> all){
+        response.setCharacterEncoding("UTF-8");
+        try {
+            response.getWriter().print(ObjectToJSON.convertorListToJson(name,all));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 将集合数据转换为Json，并实现分页处理
+     * @param response
+     * @param name
+     * @param all
+     * @param allRecorders
+     */
+    public void printObjectToListSplit(HttpServletResponse response,String name, List<?> all,Integer allRecorders){
+        response.setCharacterEncoding("UTF-8");
+        try {
+            response.getWriter().print(ObjectToJSON.convertorListSplitToJson(name,all,allRecorders));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 
     public abstract String getText();
 }

@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletResponse;
 import java.sql.SQLException;
 
 @Controller
@@ -17,8 +18,12 @@ public class ClassesAction extends DefaultAction{
     private IClassesService classesService;
 
     @RequestMapping(value = "clsses_list")
-    public void list(){
-
+    public void list(HttpServletResponse response){
+        try {
+            super.printObjectToList(response,"allClasses",this.classesService.list());
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
     @RequestMapping(value = "classes_insert")

@@ -562,3 +562,30 @@
        return obj;
    }
    ```
+
+5. 第二种处理方式
+
+   ```java
+   @RequestMapping(value = "clsses_list")
+   public void list(HttpServletResponse response){
+       try {
+           super.printObjectToList(response,"allClasses",this.classesService.list());
+       } catch (SQLException e) {
+           e.printStackTrace();
+       }
+   }
+   ```
+
+### 21班级列表（页面效果）
+
+1. 编写页面
+
+   ```html
+   <table class="table table-bordered" id="classesTable">
+       <tr>
+           <th>班级编号</th>
+           <th>班级名称</th>
+           <th>班级简介</th>
+       </tr>
+   </table>
+   ```
