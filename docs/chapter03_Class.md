@@ -552,3 +552,13 @@
        return obj;
    }
    ```
+
+4. json处理分页
+
+   ```java
+   public static JSONObject convertorListSplitToJson(String name, List<?> all,Integer allRecorders) {
+       JSONObject obj = convertorListToJson(name,all);
+       obj.put("allRecorders",allRecorders);
+       return obj;
+   }
+   ```

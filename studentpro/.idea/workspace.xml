@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58e27110-e660-4007-b67e-094198113f32" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/ylcto/util/ObjectToJSON.java" afterPath="$PROJECT_DIR$/src/main/java/cn/ylcto/util/ObjectToJSON.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/test/cn/ylcto/testJson/TestAdmin.java" afterPath="$PROJECT_DIR$/src/main/test/cn/ylcto/testJson/TestAdmin.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,8 +40,8 @@
       <file leaf-file-name="ObjectToJSON.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/ylcto/util/ObjectToJSON.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="49" column="5" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="49" selection-end-column="5" />
+            <state relative-caret-position="137">
+              <caret line="51" column="4" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1061,7 +1059,7 @@
       <workItem from="1498525298588" duration="4560000" />
       <workItem from="1498543592073" duration="4502000" />
       <workItem from="1498657951245" duration="3024000" />
-      <workItem from="1498701308744" duration="1283000" />
+      <workItem from="1498701308744" duration="1523000" />
     </task>
     <servers />
   </component>
@@ -1098,7 +1096,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59377000" />
+    <option name="totallyTimeSpent" value="59617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -1540,8 +1538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/ylcto/util/ObjectToJSON.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="49" selection-end-column="5" />
+        <state relative-caret-position="137">
+          <caret line="51" column="4" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
