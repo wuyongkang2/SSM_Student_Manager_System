@@ -1,11 +1,15 @@
 package cn.ylcto.util;
 
+import cn.ylcto.student.vo.Admin;
+import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Iterator;
+import java.util.List;
 
 /**
  * Created by kangkang on 2017/6/28.
@@ -30,6 +34,18 @@ public class ObjectToJSON {
                 e.printStackTrace();
             }
         }
+        return obj;
+    }
+
+    public static JSONObject convertorListToJson(String name, List<?> all) {
+        JSONObject obj = new JSONObject();
+        JSONArray array = new JSONArray();
+        Iterator<?> iter = all.iterator();
+        while(iter.hasNext()){
+            array.add(convertorObjectToJSON(iter.next()));
+        }
+        obj.put(name,array);
+
         return obj;
     }
 }

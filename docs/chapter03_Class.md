@@ -536,3 +536,19 @@
        return obj;
    }
    ```
+
+3. json列出全部数据
+
+   ```java
+   public static JSONObject convertorListToJson(String name, List<?> all) {
+       JSONObject obj = new JSONObject();
+       JSONArray array = new JSONArray();
+       Iterator<?> iter = all.iterator();
+       while(iter.hasNext()){
+           array.add(convertorObjectToJSON(iter.next()));
+       }
+       obj.put(name,array);
+
+       return obj;
+   }
+   ```
