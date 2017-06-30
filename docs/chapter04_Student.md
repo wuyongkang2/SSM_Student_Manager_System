@@ -336,3 +336,17 @@
    }
    ```
 
+2. 编写资源文件
+
+   ```properties
+   # {0}增加成功！
+   student.insert.success={0}\u589e\u52a0\u6210\u529f\uff01
+   # {0}增加失败！
+   student.insert.failure={0}\u589e\u52a0\u5931\u8d25\uff01
+   ```
+
+   ```properties
+   student.login.success=/pages/back/student/student_insert.jsp
+   student.login.failure=/pages/back/student/student_insert.jsp
+   ```
+
