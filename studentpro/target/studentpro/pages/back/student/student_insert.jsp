@@ -26,6 +26,14 @@
             </div>
         </div>
 
+        <!-- 班级编号 -->
+        <div class="form-group">
+            <label for="sid" class="control-label col-md-3">班级编号</label>
+            <div class=col-md-5>
+                <select name="classes.cid" id="classes.cid" class="form-control" ></select>
+            </div>
+        </div>
+
         <!-- 学生姓名 -->
         <div class="form-group">
             <label for="name" class="control-label col-md-3">学生姓名</label>
@@ -57,7 +65,7 @@
 
         <!-- 联系地址 -->
         <div class="form-group">
-            <label for="address" class="control-label col-md-3">学生年龄</label>
+            <label for="address" class="control-label col-md-3">联系地址</label>
             <div class=col-md-5>
                 <input type="text" class="form-control" name="address" id="address" placeholder="请输入联系地址">
             </div>

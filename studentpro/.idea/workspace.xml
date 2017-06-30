@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58e27110-e660-4007-b67e-094198113f32" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/back/student/student_insert.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/ylcto/student/action/AdminLoginAction.class" afterPath="$PROJECT_DIR$/target/classes/cn/ylcto/student/action/AdminLoginAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/ylcto/util/action/DefaultAction.class" afterPath="$PROJECT_DIR$/target/classes/cn/ylcto/util/action/DefaultAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/action/AdminLoginAction.class" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/action/AdminLoginAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/vo/Classes.class" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/vo/Classes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/cn/ylcto/test/StudentServiceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/cn/ylcto/test/StudentServiceTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jquery/student_insert.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../docs/chapter04_Student.md" afterPath="$PROJECT_DIR$/../docs/chapter04_Student.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/my.log" afterPath="$PROJECT_DIR$/logs/my.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Messages.properties" afterPath="$PROJECT_DIR$/target/classes/Messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Pages.properties" afterPath="$PROJECT_DIR$/target/classes/Pages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/Messages.properties" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/Messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/Pages.properties" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/Pages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/mybatis.cfg.xml" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/mybatis.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/pages/header.jsp" afterPath="$PROJECT_DIR$/target/studentpro/pages/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/back/student/student_insert.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/back/student/student_insert.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/pages/back/student/student_insert.jsp" afterPath="$PROJECT_DIR$/target/studentpro/pages/back/student/student_insert.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,21 +29,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="student_insert.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/back/student/student_insert.jsp">
+      <file leaf-file-name="student_insert.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/student_insert.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="79" column="11" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="79" selection-end-column="11" />
+            <state relative-caret-position="800">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header.jsp">
+      <file leaf-file-name="student_insert.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/back/student/student_insert.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+            <state relative-caret-position="221">
+              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -83,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/test/TestMD5Code.java" />
         <option value="$PROJECT_DIR$/src/main/test/cn/ylcto/test/TestMD5Code.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/impl/AdminDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
@@ -134,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/pages/back/classes/classes_insert.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/back/student/student_insert.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jquery/student_insert.js" />
       </list>
     </option>
   </component>
@@ -354,6 +342,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studentpro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studentpro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -754,10 +768,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="N:\Github\SSM_Student_Manager_System\studentpro\src\main\webapp\jquery" />
       <recent name="N:\Github\SSM_Student_Manager_System\studentpro\src\main\webapp\pages\back\student" />
       <recent name="N:\Github\SSM_Student_Manager_System\studentpro\src\main\webapp\pages\back\classes" />
       <recent name="N:\Github\SSM_Student_Manager_System\studentpro\src\main\resources\mapper" />
-      <recent name="N:\Github\SSM_Student_Manager_System\studentpro\src\main\webapp\jquery" />
       <recent name="N:\Github\SSM_Student_Manager_System\studentpro\src\main\java\cn\ylcto\student\action" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1425,7 +1439,7 @@
       <workItem from="1498701308744" duration="3362000" />
       <workItem from="1498740332114" duration="4966000" />
       <workItem from="1498784634275" duration="287000" />
-      <workItem from="1498785318955" duration="4192000" />
+      <workItem from="1498785318955" duration="5084000" />
     </task>
     <servers />
   </component>
@@ -1462,10 +1476,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70901000" />
+    <option name="totallyTimeSpent" value="71793000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1555,13 +1569,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.3.RELEASE/spring-core-4.3.3.RELEASE.jar!/org/springframework/util/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.3.RELEASE/spring-tx-4.3.3.RELEASE.jar!/org/springframework/transaction/support/TransactionSynchronizationUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -1670,13 +1677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/classes_insert.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/Mapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1720,13 +1720,6 @@
         <state relative-caret-position="32">
           <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/classes_list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1901,10 +1894,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/classes_insert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/classes_list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/back/student/student_insert.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="79" column="11" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="79" selection-end-column="11" />
+        <state relative-caret-position="221">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/student_insert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
           <folding />
         </state>
       </provider>
