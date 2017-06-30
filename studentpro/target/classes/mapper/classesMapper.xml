@@ -7,7 +7,7 @@
         <result property="cname" column="cname"></result>
         <result property="note" column="note"></result>
         <!-- 配置一对多关系 -->
-        <collection property="students" column="sid" javaType="java.util.List" ofType="Classes"></collection>
+        <collection property="students" column="sid" javaType="java.util.List" ofType="Student"></collection>
     </resultMap>
 
     <!--实现数据增加-->

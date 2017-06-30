@@ -661,4 +661,55 @@
 
 ### 29学生列表（编写页面）
 
-1. ​
+1. 编写表单
+
+   ```html
+   <table class="table table-bordered table-hover" id="studentTable">
+       <tr>
+           <th class="text-center"><input type="checkbox" name="" id="" /></th>
+           <th class="text-center">学生编号</th>
+           <th class="text-center">学生名字</th>
+           <th class="text-center">学生年龄</th>
+           <th class="text-center">学生性别</th>
+           <th class="text-center">联系地址</th>
+           <th class="text-center">操作</th>
+       </tr>
+   </table>
+   ```
+
+2. 导入相关js
+
+   ```html
+   <script src="jquery/student_list.js"></script>
+   <script src="jquery/util.js"></script>
+   ```
+
+3. 编写异步加载数据操作
+
+   ```javascript
+   $(function () {
+       loadData();
+   })
+
+   function loadData() { //定义数据读取的操作函数
+       $.post("pages/back/student/student_list.action",{},function (obj) {
+           $("#studentTable tr:gt(0)").remove();
+           for(var x = 0; x < obj.allStudent.length; x++){
+               addRow(obj.allStudent[x].sid,obj.allStudent[x].name,obj.allStudent[x].age,obj.allStudent[x].sex,obj.allStudent[x].address);
+           }
+          createSplitBar(obj.allRecorders);
+       },"json");
+   }
+
+   function addRow(sid,name,age,sex,address){
+       var str = "<tr><td><input type='checkbox' class='text-center' name='sid' id='sid' value='"+sid+"'></td>" +
+           "<td class='text-center'>"+sid+"</td>" +
+           "<td class='text-center'>"+name+"</td>" +
+           "<td class='text-center'>"+age+"</td>" +
+           "<td class='text-center'>"+sex+"</td>" +
+           "<td class='text-center'>"+address+"</td>" +
+           "<td class='text-center'><button type='button' class='btn btn-success btn-sm'>更新</button> </td>" +
+           "</tr>";
+       $("#studentTable").append($(str));
+   }
+   ```

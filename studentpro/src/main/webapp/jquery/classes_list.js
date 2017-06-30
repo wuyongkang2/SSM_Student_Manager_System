@@ -1,8 +1,8 @@
 $(function () {
-    loadDate();
+    loadData();
 })
 
-function loadDate() {
+function loadData() {
     $.post("pages/back/classes/classes_list.action",{},function (obj) {
         $("#classesTable tr:gt(0)").remove();
         for (var x = 0;x <obj.allClasses.length;x++){
