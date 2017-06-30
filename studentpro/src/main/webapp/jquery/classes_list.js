@@ -12,7 +12,6 @@ function loadDate() {
 }
 
 function addRow(cid,cname,note) {
-    alert(cid);
     var str = "<tr>" +
         "<td>"+cid+"</td>"+
         "<td>"+cname+"</td>"+

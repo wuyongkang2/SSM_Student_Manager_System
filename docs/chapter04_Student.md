@@ -262,12 +262,13 @@
    import org.junit.Test;
    import org.springframework.context.ApplicationContext;
    import org.springframework.context.support.ClassPathXmlApplicationContext;
+   ```
 
 
    public class StudentServiceTest {
        private static ApplicationContext ctx ;
        private static IStudentService studentService;
-
+    
        static {
            ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
            studentService = ctx.getBean("studentServiceImpl",IStudentService.class);
@@ -454,4 +455,13 @@
            }
        },"json");
    }
+   ```
+
+### 26学生列表（数据层实现 ）
+
+1. 修改classesMapper.xml文件
+
+   ```xml
+   <!-- 配置一对多关系 -->
+   <collection property="students" column="sid" javaType="java.util.List" ofType="Classes"></collection>
    ```
