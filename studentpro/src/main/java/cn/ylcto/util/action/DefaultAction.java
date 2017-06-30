@@ -18,11 +18,18 @@ import java.util.Locale;
 public abstract class DefaultAction {
     @Resource
     private MessageSource messageSource;
-    @Autowired
-    protected HttpServletRequest request = null;
 
     private Integer currentPage = 1; //表示第一页
     private Integer lineSize = 2; //表示每页显示记录数
+
+    public void print(HttpServletResponse response,Object msg){
+        try {
+            response.getWriter().print(msg);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 
     public void handSplit(HttpServletRequest request,HttpServletResponse response){
         try {

@@ -22,6 +22,15 @@ public class StudentAction extends DefaultAction {
     @Resource
     private IStudentService studentService;
 
+    @RequestMapping(value="student_update")
+    public void update(HttpServletResponse response,Student vo){
+        try {
+            super.print(response,this.studentService.update(vo));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     @RequestMapping(value = "student_list")
     public void list(HttpServletRequest request, HttpServletResponse response){
         super.handSplit(request,response);

@@ -775,3 +775,29 @@
    }
    ```
 
+### 32更新学生信息（控制层实现）
+
+1. 编写工具类
+
+   ```java
+   public void print(HttpServletResponse response,Object msg){
+       try {
+           response.getWriter().print(msg);
+       } catch (IOException e) {
+           e.printStackTrace();
+       }
+   }
+   ```
+
+2. 实现更新操作方法
+
+   ```java
+   @RequestMapping(value="student_update")
+   public void update(HttpServletResponse response,Student vo){
+       try {
+           super.print(response,this.studentService.update(vo));
+       } catch (Exception e) {
+           e.printStackTrace();
+       }
+   }
+   ```
