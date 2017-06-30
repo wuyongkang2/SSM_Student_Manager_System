@@ -20,6 +20,26 @@ public abstract class DefaultAction {
     private MessageSource messageSource;
     protected HttpServletRequest request = null;
 
+    private Integer currentPage = 1; //表示第一页
+    private Integer lineSize = 2; //表示每页显示记录数
+
+    public void handSplit(HttpServletRequest request,HttpServletResponse response){
+        try {
+            this.currentPage = Integer.parseInt(request.getParameter("cp"));
+        }catch (Exception e){}
+        try {
+            this.lineSize = Integer.parseInt(request.getParameter("ls"));
+        }catch (Exception e){}
+    }
+
+    public Integer getCurrentPage() {
+        return currentPage;
+    }
+
+    public Integer getLineSize() {
+        return lineSize;
+    }
+
     /**
      * 可以根据key取得资源的内容
      * @param key 表示要读取的key
