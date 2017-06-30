@@ -22,8 +22,6 @@ import java.text.SimpleDateFormat;
 public class AdminLoginAction extends DefaultAction {
     @Resource
     private IAdminService adminService;
-    @Autowired
-    private HttpServletRequest request;
 
     @RequestMapping(value = "admin_login")
     public ModelAndView login(Admin admin){

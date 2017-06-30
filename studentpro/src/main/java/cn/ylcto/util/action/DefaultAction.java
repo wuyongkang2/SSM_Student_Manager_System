@@ -18,8 +18,6 @@ import java.util.Locale;
 public abstract class DefaultAction {
     @Resource
     private MessageSource messageSource;
-
-    @Autowired
     protected HttpServletRequest request = null;
 
     /**

@@ -38,6 +38,6 @@ public class StudentServiceTest {
         Map<String, Object> map = this.studentService.listSplit(1,2);
         System.out.println(map.get("allStudent"));
         System.out.println(map.get("studentCount"));
-        TestCase.assertTrue(map.size() == 3);
+        TestCase.assertTrue(map.size() == 2);
     }
 }

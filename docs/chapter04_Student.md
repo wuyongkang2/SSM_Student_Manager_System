@@ -538,17 +538,17 @@
 
    ```java
    @Override
-   public List<Student> findAllBySplit(Integer currentPage, Integer lineSize) throws SQLException {
-       Map<String,Object> map = new HashMap<>();
-       map.put("start",(currentPage-1)*lineSize); //表示当前页
-       map.put("lineSize",lineSize); //表示当前页
-       return super.getSqlSession().selectList("StudentNS.studentResultMap",map);
-   }
+       public List<Student> findAllBySplit(Integer currentPage, Integer lineSize) throws SQLException {
+           Map<String,Object> map = new HashMap<>();
+           map.put("start",(currentPage-1)*lineSize); //表示当前页
+           map.put("lineSize",lineSize); //表示当前页
+           return super.getSqlSession().selectList("StudentNS.findBySplit",map);
+       }
 
-   @Override
-   public Integer getAllCount() throws SQLException {
-       return super.getSqlSession().selectOne("StudentNS.getAllCount");
-   }
+       @Override
+       public Integer getAllCount() throws SQLException {
+           return super.getSqlSession().selectOne("StudentNS.getAllCount");
+       }
    ```
 
 ### 27学生列表（服务层实现）
@@ -580,12 +580,12 @@
 
 3. 编写测试类
 
-   ```
+   ```java
    @Test
    public void list() throws Exception {
        Map<String, Object> map = this.studentService.listSplit(1,2);
        System.out.println(map.get("allStudent"));
        System.out.println(map.get("studentCount"));
-       TestCase.assertTrue(map.size() == 3);
+       TestCase.assertTrue(map.size() == 2);
    }
    ```

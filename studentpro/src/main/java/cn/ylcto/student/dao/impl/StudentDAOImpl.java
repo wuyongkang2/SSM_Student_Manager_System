@@ -63,7 +63,7 @@ public class StudentDAOImpl extends SqlSessionDaoSupport implements IStudentDAO 
         Map<String,Object> map = new HashMap<>();
         map.put("start",(currentPage-1)*lineSize); //表示当前页
         map.put("lineSize",lineSize); //表示当前页
-        return super.getSqlSession().selectList("StudentNS.studentResultMap",map);
+        return super.getSqlSession().selectList("StudentNS.findBySplit",map);
     }
 
     @Override

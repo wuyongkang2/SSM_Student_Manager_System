@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="classesNS">
-    <resultMap id="classesResultMap" type="Classes">
-        <id property="cid" column="cid"></id>
-        <result property="cname" column="cname"></result>
-        <result property="note" column="note"></result>
-        <!-- 配置一对多关系 -->
-        <collection property="students" column="sid" javaType="java.util.List" ofType="Classes"></collection>
+<mapper namespace="StudentNS">
+    
+    <resultMap id="studentResultMap" type="Student">
+        <id property="sid" column="sid" />
+        <result property="name" column="name" />
+        <result property="age" column="age" />
+        <result property="sex" column="sex" />
+        <result property="address" column="address" />
+        <association property="classes" column="cid" javaType="Classes" resultMap="classesNS.classesResultMap"/>
     </resultMap>
 
-    <!--实现数据增加-->
-    <insert id="doCreate" parameterType="Classes">
-        INSERT INTO classes(cname,note)VALUES (#{cname},#{note})
+    <!--实现数据增加操作-->
+    <insert id="doCreate" parameterType="Student">
+        INSERT INTO student(sid,name,age,sex,address,cid)VALUES (#{sid},#{name},#{age},#{sex},#{address},#{classes.cid})
     </insert>
 
-    <!--查询班级名称-->
-    <select id="findByCname" parameterType="String" resultMap="classesResultMap">
-        SELECT cid,cname,note FROM classes WHERE cname=#{cname}
+    <!-- 编写分页操作 -->
+    <select id="findBySplit" parameterType="java.util.Map" resultMap="studentResultMap">
+      SELECT sid,name,age,sex,address FROM student LIMIT ${start},#{lineSize}
     </select>
 
-    <!--查询全部数据-->
-    <select id="findAll" parameterType="java.util.List" resultMap="classesResultMap">
-        SELECT cid,cname,note FROM classes
+    <!-- 统计全部数据量 -->
+    <select id="getAllCount" parameterType="java.util.Map" resultType="Integer">
+        SELECT COUNT(sid) FROM student
     </select>
 
 </mapper>
