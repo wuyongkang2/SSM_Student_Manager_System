@@ -565,3 +565,27 @@
     */
    public Map<String,Object> listSplit(int currentPage,int lineSize) throws Exception;
    ```
+
+2. 编写实现类
+
+   ```java
+   @Override
+   public Map<String, Object> listSplit(int currentPage, int lineSize) throws Exception {
+       Map<String,Object> map = new HashMap<>();
+       map.put("allStudent",this.studentDAO.findAllBySplit(currentPage,lineSize));
+       map.put("studentCount",this.studentDAO.getAllCount());
+       return map;
+   }
+   ```
+
+3. 编写测试类
+
+   ```
+   @Test
+   public void list() throws Exception {
+       Map<String, Object> map = this.studentService.listSplit(1,2);
+       System.out.println(map.get("allStudent"));
+       System.out.println(map.get("studentCount"));
+       TestCase.assertTrue(map.size() == 3);
+   }
+   ```

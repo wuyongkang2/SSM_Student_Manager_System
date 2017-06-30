@@ -6,6 +6,8 @@ import cn.ylcto.student.vo.Student;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by kangkang on 2017/6/30.
@@ -17,5 +19,13 @@ public class StudentServiceImpl implements IStudentService {
     @Override
     public boolean insert(Student vo) throws Exception {
         return this.studentDAO.doCreate(vo);
+    }
+
+    @Override
+    public Map<String, Object> listSplit(int currentPage, int lineSize) throws Exception {
+        Map<String,Object> map = new HashMap<>();
+        map.put("allStudent",this.studentDAO.findAllBySplit(currentPage,lineSize));
+        map.put("studentCount",this.studentDAO.getAllCount());
+        return map;
     }
 }

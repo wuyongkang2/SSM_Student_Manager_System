@@ -8,6 +8,8 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.Map;
+
 
 public class StudentServiceTest {
     private static ApplicationContext ctx ;
@@ -29,5 +31,13 @@ public class StudentServiceTest {
         classes.setCid(1);
         vo.setClasses(classes);
         TestCase.assertTrue(this.studentService.insert(vo));
+    }
+
+    @Test
+    public void list() throws Exception {
+        Map<String, Object> map = this.studentService.listSplit(1,2);
+        System.out.println(map.get("allStudent"));
+        System.out.println(map.get("studentCount"));
+        TestCase.assertTrue(map.size() == 3);
     }
 }
