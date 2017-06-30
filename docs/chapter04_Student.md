@@ -289,7 +289,7 @@
    }
    ```
 
-### 24增加学生（控制层实现 ）
+### 24增加学生（控制层实现）
 
 1. 新建一个StudentAction.java类
 
@@ -351,7 +351,7 @@
    student.login.failure=/pages/back/student/student_insert.jsp
    ```
 
-### 25增加学生（编写页面 ）
+### 25增加学生（编写页面）
 
 1. 编写表单
 
@@ -457,7 +457,7 @@
    }
    ```
 
-### 26学生列表（数据层实现 ）
+### 26学生列表（数据层实现）
 
 1. 修改classesMapper.xml文件
 
@@ -549,4 +549,19 @@
    public Integer getAllCount() throws SQLException {
        return super.getSqlSession().selectOne("StudentNS.getAllCount");
    }
+   ```
+
+### 27学生列表（服务层实现）
+
+1. 定义服务层接口
+
+   ```java
+   /**
+    * 实现数据分页查询操作
+    * @param currentPage 表示当前页
+    * @param lineSize 表示每页显示记录数
+    * @return
+    * @throws Exception
+    */
+   public Map<String,Object> listSplit(int currentPage,int lineSize) throws Exception;
    ```

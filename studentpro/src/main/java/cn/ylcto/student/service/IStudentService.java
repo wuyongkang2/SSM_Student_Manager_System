@@ -2,6 +2,8 @@ package cn.ylcto.student.service;
 
 import cn.ylcto.student.vo.Student;
 
+import java.util.Map;
+
 /**
  * Created by kangkang on 2017/6/30.
  */
@@ -13,4 +15,13 @@ public interface IStudentService {
      * @throws Exception
      */
     public boolean insert(Student vo) throws Exception;
+
+    /**
+     * 实现数据分页查询操作
+     * @param currentPage 表示当前页
+     * @param lineSize 表示每页显示记录数
+     * @return
+     * @throws Exception
+     */
+    public Map<String,Object> listSplit(int currentPage,int lineSize) throws Exception;
 }
