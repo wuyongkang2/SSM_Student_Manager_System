@@ -616,35 +616,7 @@
    @Controller
    @RequestMapping(value="/pages/back/student/*")
    public class StudentAction extends DefaultAction {
-       @Resource
-       private IStudentService studentService;
-
-       @RequestMapping(value = "student_list")
-       public void list(HttpServletRequest request, HttpServletResponse response){
-           super.handSplit(request,response);
-           try {
-               Map<String,Object> map = this.studentService.listSplit(super.getCurrentPage(),super.getLineSize());
-               List<Student> all = (List<Student>) map.get("allStudent")
-               Integer allRecorders = (Integer) map.get("studentCount");
-               super.printObjectToListSplit(response,"allStudent",all,allRecorders);
-           } catch (Exception e) {
-               e.printStackTrace();
-           }
-       }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+       
        @RequestMapping(value = "student_insert")
        public ModelAndView insert(Student vo) {
            ModelAndView mav = new ModelAndView(super.getResource("pages.forward"));
@@ -668,3 +640,26 @@
    }
    ```
 
+2. 在DefaultAction.java类中增加分页处理
+
+   ```java
+   private Integer currentPage = 1; //表示第一页
+   private Integer lineSize = 2; //表示每页显示记录数
+
+   public void handSplit(HttpServletRequest request,HttpServletResponse response){
+       try {
+           this.currentPage = Integer.parseInt(request.getParameter("cp"));
+       }catch (Exception e){}
+       try {
+           this.lineSize = Integer.parseInt(request.getParameter("ls"));
+       }catch (Exception e){}
+   }
+
+   public Integer getCurrentPage() {
+       return currentPage;
+   }
+
+   public Integer getLineSize() {
+       return lineSize;
+   }
+   ```
