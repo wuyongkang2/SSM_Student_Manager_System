@@ -465,3 +465,38 @@
    <!-- 配置一对多关系 -->
    <collection property="students" column="sid" javaType="java.util.List" ofType="Classes"></collection>
    ```
+
+2. 修改studentMapper.xml文件
+
+   ```xml
+   <?xml version="1.0" encoding="UTF-8"?>
+   <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+           "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+   <mapper namespace="StudentNS">
+       
+       <resultMap id="studentResultMap" type="Student">
+           <id property="sid" column="sid" />
+           <result property="name" column="name" />
+           <result property="age" column="age" />
+           <result property="sex" column="sex" />
+           <result property="address" column="address" />
+           <association property="classes" column="cid" javaType="Classes" resultMap="classesNS.classesResultMap"
+       </resultMap>
+
+       <!--实现数据增加操作-->
+       <insert id="doCreate" parameterType="Student">
+           INSERT INTO student(sid,name,age,sex,address,cid)VALUES (#{sid},#{name},#{age},#{sex},#{address},#{classes.cid})
+       </insert>
+
+       <!-- 编写分页操作 -->
+       <select id="findBySplit" parameterType="java.util.Map" resultMap="studentResultMap">
+         SELECT sid,name,age,sex,address FROM student LIMIT ${start},#{lineSize}
+       </select>
+
+       <!-- 统计全部数据量 -->
+       <select id="getAllCount" parameterType="java.util.Map" resultType="Integer">
+           SELECT COUNT(sid) FROM student
+       </select>
+
+   </mapper>
+   ```
