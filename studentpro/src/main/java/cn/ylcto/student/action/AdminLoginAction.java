@@ -34,8 +34,8 @@ public class AdminLoginAction extends DefaultAction {
             Admin vo = this.adminService.login(admin); //登陆成功还要取得最后一次登陆日期
             if (vo != null){
                 super.setMsgAndPath(mav,"admin.insert.success","admin.login.success");
-                request.getSession().setAttribute("email",vo.getEmail());
-                request.getSession().setAttribute("lastdate",new SimpleDateFormat("yyyy-MM-dd").format(vo.getLastdate())); //取得最后一次登录日期操作
+                super.request.getSession().setAttribute("email",vo.getEmail());
+                super.request.getSession().setAttribute("lastdate",new SimpleDateFormat("yyyy-MM-dd").format(vo.getLastdate())); //取得最后一次登录日期操作
             }else{
                 super.setMsgAndPath(mav,"admin.insert.failure","admin.login.failure");
             }
