@@ -24,4 +24,12 @@ public interface IStudentService {
      * @throws Exception
      */
     public Map<String,Object> listSplit(int currentPage,int lineSize) throws Exception;
+
+    /**
+     * 实现数据更新操作方法
+     * @param vo 表示要执行更新操作的数据
+     * @return 成功返回true,失败返回false
+     * @throws Exception
+     */
+    public boolean update(Student vo) throws Exception;
 }

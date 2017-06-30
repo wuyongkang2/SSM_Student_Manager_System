@@ -40,4 +40,18 @@ public class StudentServiceTest {
         System.out.println(map.get("studentCount"));
         TestCase.assertTrue(map.size() == 2);
     }
+
+    @Test
+    public void update() throws Exception{
+        Student vo = new Student();
+        vo.setName("王五");
+        vo.setAge(20);
+        vo.setSex(1);
+        vo.setAddress("联系地址");
+        vo.setSid("YLCTO832");
+        Classes classes = new Classes();
+        classes.setCid(5);
+        vo.setClasses(classes);
+        TestCase.assertTrue(this.studentService.update(vo));
+    }
 }

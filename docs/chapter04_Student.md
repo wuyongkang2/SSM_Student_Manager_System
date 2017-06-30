@@ -733,3 +733,45 @@
        return super.getSqlSession().update("StudentNS.doUpdate",vo) > 0;
    }
    ```
+
+### 31更新学生信息（服务层的实现与JUNIT测试）
+
+1. 定义服务层接口
+
+   ```java
+   /**
+    * 实现数据更新操作方法
+    * @param vo 表示要执行更新操作的数据
+    * @return 成功返回true,失败返回false
+    * @throws Exception
+    */
+   public boolean update(Student vo) throws Exception;
+   ```
+
+2. 编写服务层接口实现类
+
+   ```java
+   @Override
+   public boolean update(Student vo) throws Exception {
+       return this.studentDAO.doUpdate(vo);
+   }
+   ```
+
+3. 编写测试类
+
+   ```java
+   @Test
+   public void update() throws Exception{
+       Student vo = new Student();
+       vo.setName("王五");
+       vo.setAge(20);
+       vo.setSex(1);
+       vo.setAddress("联系地址");
+       vo.setSid("YLCTO832");
+       Classes classes = new Classes();
+       classes.setCid(5);
+       vo.setClasses(classes);
+       TestCase.assertTrue(this.studentService.update(vo));
+   }
+   ```
+

@@ -47,16 +47,18 @@
 
 ### 2017.06.30 [23增加学生（服务层实现与JUNIT测试）](/docs/chapter04_Student.md#23增加学生服务层实现与junit测试)
 
-### 2017.06.30[24增加学生（控制层实现）](/docs/chapter04_Student.md#24增加学生控制层实现 )
+### 2017.06.30 [24增加学生（控制层实现）](/docs/chapter04_Student.md#24增加学生控制层实现 )
 
-### 2017.06.30[25增加学生（编写页面）](/docs/chapter04_Student.md#25增加学生编写页面)
+### 2017.06.30 [25增加学生（编写页面）](/docs/chapter04_Student.md#25增加学生编写页面)
 
-### 2017.06.30[26学生列表（数据层实现）](/docs/chapter04_Student.md#26学生列表数据层实现)
+### 2017.06.30 [26学生列表（数据层实现）](/docs/chapter04_Student.md#26学生列表数据层实现)
 
-### 2017.06.30[27学生列表（服务层实现与JUNIT测试）](/docs/chapter04_Student.md#27学生列表服务层实现与junit测试)
+### 2017.06.30 [27学生列表（服务层实现与JUNIT测试）](/docs/chapter04_Student.md#27学生列表服务层实现与junit测试)
 
-### 2017.06.30[28学生列表（编写控制层）](/docs/chapter04_Student.md#28学生列表编写控制层)
+### 2017.06.30 [28学生列表（编写控制层）](/docs/chapter04_Student.md#28学生列表编写控制层)
 
-### 2017.06.30[29学生列表（编写页面）](/docs/chapter04_Student.md#29学生列表编写页面)
+### 2017.06.30 [29学生列表（编写页面）](/docs/chapter04_Student.md#29学生列表编写页面)
 
-### 2017.06.30[30更新学生信息（实现数据层）](/docs/chapter04_Student.md#30更新学生信息实现数据层)
+### 2017.06.30 [30更新学生信息（实现数据层）](/docs/chapter04_Student.md#30更新学生信息实现数据层)
+
+### 2017.06.30 [31更新学生信息（服务层的实现与JUNIT测试）](/docs/chapter04_Student.md#更新学生信息服务层的实现与JUNIT测试)

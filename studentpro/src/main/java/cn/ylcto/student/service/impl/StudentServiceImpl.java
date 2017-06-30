@@ -28,4 +28,9 @@ public class StudentServiceImpl implements IStudentService {
         map.put("studentCount",this.studentDAO.getAllCount());
         return map;
     }
+
+    @Override
+    public boolean update(Student vo) throws Exception {
+        return this.studentDAO.doUpdate(vo);
+    }
 }
