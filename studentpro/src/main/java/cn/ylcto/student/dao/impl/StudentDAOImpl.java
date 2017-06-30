@@ -30,7 +30,7 @@ public class StudentDAOImpl extends SqlSessionDaoSupport implements IStudentDAO 
 
     @Override
     public boolean doUpdate(Student vo) throws SQLException {
-        return false;
+        return super.getSqlSession().update("StudentNS.doUpdate",vo) > 0;
     }
 
     @Override

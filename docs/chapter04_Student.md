@@ -713,3 +713,23 @@
        $("#studentTable").append($(str));
    }
    ```
+
+### 30更新学生信息（实现数据层）
+
+1. 编写studentMapper.xml
+
+   ```xml
+   <!-- 实现数据更新操作 -->
+   <update id="doUpdate" parameterType="Student">
+       UPDATE student SET name=#{name},age=#{age},sex=#{sex},address=#{address},cid=#{classes.cid} WHERE sid=#{sid}
+   </update>
+   ```
+
+2. 编写更新操作实现类 
+
+   ```java
+   @Override
+   public boolean doUpdate(Student vo) throws SQLException {
+       return super.getSqlSession().update("StudentNS.doUpdate",vo) > 0;
+   }
+   ```
