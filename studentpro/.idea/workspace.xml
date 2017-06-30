@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58e27110-e660-4007-b67e-094198113f32" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/back/student/student_insert.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/ylcto/student/action/AdminLoginAction.class" afterPath="$PROJECT_DIR$/target/classes/cn/ylcto/student/action/AdminLoginAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/ylcto/util/action/DefaultAction.class" afterPath="$PROJECT_DIR$/target/classes/cn/ylcto/util/action/DefaultAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/action/AdminLoginAction.class" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/action/AdminLoginAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/vo/Classes.class" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/vo/Classes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/cn/ylcto/test/StudentServiceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/cn/ylcto/test/StudentServiceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../docs/chapter04_Student.md" afterPath="$PROJECT_DIR$/../docs/chapter04_Student.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/my.log" afterPath="$PROJECT_DIR$/logs/my.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Messages.properties" afterPath="$PROJECT_DIR$/target/classes/Messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Pages.properties" afterPath="$PROJECT_DIR$/target/classes/Pages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/Messages.properties" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/Messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/Pages.properties" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/Pages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/mybatis.cfg.xml" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/mybatis.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/pages/header.jsp" afterPath="$PROJECT_DIR$/target/studentpro/pages/header.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,7 +40,28 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="student_insert.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/back/student/student_insert.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="79" column="11" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="79" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/test/TestMD5Code.java" />
         <option value="$PROJECT_DIR$/src/main/test/cn/ylcto/test/TestMD5Code.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/impl/AdminDAOImpl.java" />
@@ -66,7 +102,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/pages/footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/back/classes/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/back/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/back/classes/classes_insert.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jquery/classes_insert.js" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/classesMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/impl/ClassesDAOImpl.java" />
@@ -77,7 +112,6 @@
         <option value="$PROJECT_DIR$/src/main/test/cn/ylcto/testJson/TestAdmin.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/util/ObjectToJSON.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/back/classes/templet.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/back/classes/classes_list.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/action/ClassesAction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jquery/classes_list.js" />
@@ -97,6 +131,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/Pages.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/Messages.properties" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/action/StudentAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/back/classes/classes_insert.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/back/student/student_insert.jsp" />
       </list>
     </option>
   </component>
@@ -282,7 +319,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
+              <option name="myItemId" value="student" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,7 +345,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -709,11 +754,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="N:\Github\SSM_Student_Manager_System\studentpro\src\main\webapp\pages\back\student" />
+      <recent name="N:\Github\SSM_Student_Manager_System\studentpro\src\main\webapp\pages\back\classes" />
       <recent name="N:\Github\SSM_Student_Manager_System\studentpro\src\main\resources\mapper" />
       <recent name="N:\Github\SSM_Student_Manager_System\studentpro\src\main\webapp\jquery" />
-      <recent name="N:\Github\SSM_Student_Manager_System\studentpro\src\main\webapp\pages\back\classes" />
       <recent name="N:\Github\SSM_Student_Manager_System\studentpro\src\main\java\cn\ylcto\student\action" />
-      <recent name="N:\Github\SSM_Student_Manager_System\studentpro\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.ylcto.test" />
@@ -735,7 +780,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentServiceTest.insert">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0">
     <configuration default="false" name="AdminServiceTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1380,14 +1425,11 @@
       <workItem from="1498701308744" duration="3362000" />
       <workItem from="1498740332114" duration="4966000" />
       <workItem from="1498784634275" duration="287000" />
-      <workItem from="1498785318955" duration="2983000" />
+      <workItem from="1498785318955" duration="4192000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClassesServiceTest_list - 2017.06.28 at 22h 05m 42s.xml">
-      <configuration name="ClassesServiceTest.list" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ClassesServiceTest_list - 2017.06.28 at 22h 13m 19s.xml">
       <configuration name="ClassesServiceTest.list" configurationId="JUnit" />
     </history-entry>
@@ -1415,12 +1457,16 @@
     <history-entry file="StudentServiceTest_insert - 2017.06.30 at 09h 33m 04s.xml">
       <configuration name="StudentServiceTest.insert" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentServiceTest_insert - 2017.06.30 at 10h 25m 08s.xml">
+      <configuration name="StudentServiceTest.insert" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69692000" />
+    <option name="totallyTimeSpent" value="70901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1442,11 +1488,12 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05728314" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28968903" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.301059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.301059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1454,7 +1501,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1509,34 +1555,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0.jar!/org/mybatis/spring/SqlSessionTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.3.RELEASE/spring-aop-4.3.3.RELEASE.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.3.RELEASE/spring-tx-4.3.3.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.3.RELEASE/spring-aop-4.3.3.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.3.RELEASE/spring-core-4.3.3.RELEASE.jar!/org/springframework/util/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -1614,13 +1632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/back/classes/classes_insert.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="38" column="11" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="38" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/IClassesDAO.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/学生管理系统数据库脚本.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -1648,6 +1659,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1655,13 +1667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="64" column="63" lean-forward="false" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -1714,6 +1719,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1771,8 +1777,8 @@
           <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1781,14 +1787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="22" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ylcto/student/action/AdminLoginAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1852,6 +1850,62 @@
             <element signature="e#1195#1196#0" expanded="true" />
             <element signature="e#1222#1223#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ylcto/student/action/AdminLoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="36" column="70" lean-forward="true" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/back/student/student_insert1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/back/classes/classes_insert.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/back/classes/classes_insert.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/back/student/student_insert.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="79" column="11" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="79" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>

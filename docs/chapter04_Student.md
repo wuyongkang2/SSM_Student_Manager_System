@@ -350,3 +350,70 @@
    student.login.failure=/pages/back/student/student_insert.jsp
    ```
 
+### 25增加学生（编写页面 ）
+
+1. 编写表单
+
+   ```html
+   <form action="<%=basePath%>pages/back/student/student_insert.action" method="post" class="form-horizontal" id="insertForm">
+       <!-- 学生编号 -->
+       <div class="form-group">
+           <label for="sid" class="control-label col-md-3">学生编号</label>
+           <div class=col-md-5>
+               <input type="text" class="form-control" name="sid" id="sid" placeholder="请输入学生编号">
+           </div>
+       </div>
+
+       <!-- 班级编号 -->
+       <div class="form-group">
+           <label for="sid" class="control-label col-md-3">班级编号</label>
+           <div class=col-md-5>
+               <select name="classes.cid" id="classes.cid" class="form-control" />
+           </div>
+       </div>
+
+       <!-- 学生姓名 -->
+       <div class="form-group">
+           <label for="name" class="control-label col-md-3">学生姓名</label>
+           <div class=col-md-5>
+               <input type="text" class="form-control" name="name" id="name" placeholder="请输入学生姓名">
+           </div>
+       </div>
+
+       <!-- 学生年龄 -->
+       <div class="form-group">
+           <label for="age" class="control-label col-md-3">学生年龄</label>
+           <div class=col-md-5>
+               <input type="text" class="form-control" name="age" id="age" placeholder="请输入学生年龄">
+           </div>
+       </div>
+
+       <!-- 学生性别 -->
+       <div class="form-group">
+           <label class="control-label col-md-3">学生性别</label>
+           <div class=col-md-5>
+               <label class="radio-inline">
+                   <input type="radio" name="sex" id="sex1" value="0" checked>女
+               </label>
+               <label class="radio-inline">
+                   <input type="radio" name="sex" id="sex2" value="1">男
+               </label>
+           </div>
+       </div>
+
+       <!-- 联系地址 -->
+       <div class="form-group">
+           <label for="address" class="control-label col-md-3">联系地址</label>
+           <div class=col-md-5>
+               <input type="text" class="form-control" name="address" id="address" placeholder="请输入联系地址">
+           </div>
+       </div>
+
+       <div class="form-group">
+           <div class="col-md-4 col-md-offset-6">
+               <button type="submit" class="btn btn-success btn-sm">增加</button>
+               <button type="reset" class="btn btn-danger btn-sm">重置</button>
+           </div>
+       </div>
+   </form>
+   ```
