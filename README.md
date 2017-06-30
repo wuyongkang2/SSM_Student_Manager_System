@@ -61,4 +61,4 @@
 
 ### 2017.06.30 [30更新学生信息（实现数据层）](/docs/chapter04_Student.md#30更新学生信息实现数据层)
 
-### 2017.06.30 [31更新学生信息（服务层的实现与JUNIT测试）](/docs/chapter04_Student.md#更新学生信息服务层的实现与JUNIT测试)
+### 2017.06.30 [31更新学生信息（服务层的实现与JUNIT测试）](/docs/chapter04_Student.md#更新学生信息服务层的实现与junit测试)

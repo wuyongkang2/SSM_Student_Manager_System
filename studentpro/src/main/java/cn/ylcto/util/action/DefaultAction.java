@@ -18,6 +18,7 @@ import java.util.Locale;
 public abstract class DefaultAction {
     @Resource
     private MessageSource messageSource;
+    @Autowired
     protected HttpServletRequest request = null;
 
     private Integer currentPage = 1; //表示第一页
