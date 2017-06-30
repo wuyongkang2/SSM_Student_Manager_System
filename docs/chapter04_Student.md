@@ -616,28 +616,23 @@
    @Controller
    @RequestMapping(value="/pages/back/student/*")
    public class StudentAction extends DefaultAction {
-       
-       @RequestMapping(value = "student_insert")
-       public ModelAndView insert(Student vo) {
-           ModelAndView mav = new ModelAndView(super.getResource("pages.forward"));
-           try {
-               if (this.studentService.insert(vo)){ //表示数据增加成功
-                   super.setMsgAndPath(mav,"student.insert.success","student.login.success");
-               }else{ //表示数据增加失败
-                   super.setMsgAndPath(mav,"student.insert.failure","student.login.failure");
-               }
+       @Resource
+       private IStudentService studentService;
 
+       @RequestMapping(value = "student_list")
+       public void list(HttpServletRequest request, HttpServletResponse response){
+           super.handSplit(request,response);
+           try {
+               Map<String,Object> map = this.studentService.listSplit(super.getCurrentPage(),super.getLineSize());
+               List<Student> all = (List<Student>) map.get("allStudent");
+               Integer allRecorders = (Integer) map.get("studentCount");
+               super.printObjectToListSplit(response,"allStudent",all,allRecorders);
            } catch (Exception e) {
                e.printStackTrace();
            }
-           return mav;
-       }
-
-       @Override
-       public String getText() {
-           return "学生";
        }
    }
+
    ```
 
 2. 在DefaultAction.java类中增加分页处理

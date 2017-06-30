@@ -27,27 +27,13 @@ public class StudentAction extends DefaultAction {
         super.handSplit(request,response);
         try {
             Map<String,Object> map = this.studentService.listSplit(super.getCurrentPage(),super.getLineSize());
-            List<Student> all = (List<Student>) map.get("allStudent")
+            List<Student> all = (List<Student>) map.get("allStudent");
             Integer allRecorders = (Integer) map.get("studentCount");
             super.printObjectToListSplit(response,"allStudent",all,allRecorders);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     @RequestMapping(value = "student_insert")
     public ModelAndView insert(Student vo) {
         ModelAndView mav = new ModelAndView(super.getResource("pages.forward"));
