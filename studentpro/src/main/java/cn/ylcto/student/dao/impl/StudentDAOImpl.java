@@ -8,7 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.sql.SQLException;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -54,5 +56,18 @@ public class StudentDAOImpl extends SqlSessionDaoSupport implements IStudentDAO 
     @Override
     public Integer getAllCount(String column, String keyWord) throws SQLException {
         return null;
+    }
+
+    @Override
+    public List<Student> findAllBySplit(Integer currentPage, Integer lineSize) throws SQLException {
+        Map<String,Object> map = new HashMap<>();
+        map.put("start",(currentPage-1)*lineSize); //表示当前页
+        map.put("lineSize",lineSize); //表示当前页
+        return super.getSqlSession().selectList("StudentNS.studentResultMap",map);
+    }
+
+    @Override
+    public Integer getAllCount() throws SQLException {
+        return super.getSqlSession().selectOne("StudentNS.getAllCount");
     }
 }

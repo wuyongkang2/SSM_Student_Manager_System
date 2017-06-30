@@ -533,3 +533,20 @@
        public Integer getAllCount()throws SQLException;
    }
    ```
+
+4. 编写分页实现类
+
+   ```java
+   @Override
+   public List<Student> findAllBySplit(Integer currentPage, Integer lineSize) throws SQLException {
+       Map<String,Object> map = new HashMap<>();
+       map.put("start",(currentPage-1)*lineSize); //表示当前页
+       map.put("lineSize",lineSize); //表示当前页
+       return super.getSqlSession().selectList("StudentNS.studentResultMap",map);
+   }
+
+   @Override
+   public Integer getAllCount() throws SQLException {
+       return super.getSqlSession().selectOne("StudentNS.getAllCount");
+   }
+   ```
