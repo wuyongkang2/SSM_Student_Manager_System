@@ -45,7 +45,7 @@
 
 ### 2017.06.29 [22增加学生（数据层实现）](/docs/chapter04_Student.md#22增加学生数据层实现)
 
-### 2017.06.30 [23增加学生（服务层实现与JUNIT测试）](/docs/chapter04_Student.md#23增加学生服务层实现与JUNIT测试-)
+### 2017.06.30 [23增加学生（服务层实现与JUNIT测试）](/docs/chapter04_Student.md#23增加学生服务层实现与junit测试)
 
 ### 2017.06.30[24增加学生（控制层实现 ）](/docs/chapter04_Student.md#24增加学生控制层实现- )
 
