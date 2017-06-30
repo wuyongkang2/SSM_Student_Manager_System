@@ -801,3 +801,84 @@
        }
    }
    ```
+
+### 33更新学生信息（编写页面）
+
+1. 定义模态窗口
+
+   ```html
+   <div class="modal" id="studentInfo">
+       <div class="modal-dialog">
+           <div class="modal-header">
+               <button class="close">&times;</button>
+               <h3 class="modal-title">修改学生信息</h3>
+           </div>
+           <div class="modal-body">
+               <form method="post" class="form-horizontal" id="updateForm">
+                   <!-- 学生编号 -->
+                   <div class="form-group">
+                       <label class="control-label col-md-3">学生编号</label>
+                       <div class=col-md-5>
+                           <span id="ssid"></span>
+                       </div>
+                   </div>
+
+                   <!-- 班级编号 -->
+                   <div class="form-group">
+                       <label for="sid" class="control-label col-md-3">班级编号</label>
+                       <div class=col-md-5>
+                           <select name="classes.cid" id="classes.cid" class="form-control" ></select>
+                       </div>
+                   </div>
+
+                   <!-- 学生姓名 -->
+                   <div class="form-group">
+                       <label for="name" class="control-label col-md-3">学生姓名</label>
+                       <div class=col-md-5>
+                           <input type="text" class="form-control" name="name" id="name" placeholder="请输入学生姓名">
+                       </div>
+                   </div>
+
+                   <!-- 学生年龄 -->
+                   <div class="form-group">
+                       <label for="age" class="control-label col-md-3">学生年龄</label>
+                       <div class=col-md-5>
+                           <input type="text" class="form-control" name="age" id="age" placeholder="请输入学生年龄">
+                       </div>
+                   </div>
+
+                   <!-- 联系地址 -->
+                   <div class="form-group">
+                       <label for="address" class="control-label col-md-3">联系地址</label>
+                       <div class=col-md-5>
+                           <input type="text" class="form-control" name="address" id="address" placeholder="请输入联系地址">
+                       </div>
+                   </div>
+
+                   <div class="form-group">
+                       <div class="col-md-4 col-md-offset-6">
+                           <button type="submit" class="btn btn-success btn-sm">增加</button>
+                           <button type="reset" class="btn btn-danger btn-sm">重置</button>
+                       </div>
+                   </div>
+               </form>
+           </div>
+           <div class="modal-footer">
+               <button class="btn btn-success btn-sm" data-dismiss="modal">关闭编辑窗口</button>
+           </div>
+       </div>
+   </div>
+   ```
+
+2. 修改表单中的性别字段显示效果
+
+   ```javascript
+   var sex = obj.allStudent[x].sex;
+   if(sex == "1"){
+       sex = "男";
+   }else{
+       sex = "女";
+   }
+   addRow(obj.allStudent[x].sid,obj.allStudent[x].name,obj.allStudent[x].age,sex,obj.allStudent[x].address);
+   ```
+

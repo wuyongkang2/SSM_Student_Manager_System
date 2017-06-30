@@ -1,5 +1,5 @@
 var jsCommonCp = 1;        // 当前所在页
-var jsCommonLs = 1;        // 每页显示的数据个数
+var jsCommonLs = 5;        // 每页显示的数据个数
 var jsCommonPageSize;      // 总页数
 function createSplitBar(allRecorders) {    // 专门用于创建分页的操作
     clearBar();    // 清空全部的内容
