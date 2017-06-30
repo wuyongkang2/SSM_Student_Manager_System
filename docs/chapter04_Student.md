@@ -463,7 +463,7 @@
 
    ```xml
    <!-- 配置一对多关系 -->
-   <collection property="students" column="sid" javaType="java.util.List" ofType="Classes"></collection>
+   <collection property="students" column="sid" javaType="java.util.List" ofType="Student"></collection>
    ```
 
 2. 修改studentMapper.xml文件
@@ -663,3 +663,7 @@
        return lineSize;
    }
    ```
+
+### 29学生列表（编写页面）
+
+1. ​
