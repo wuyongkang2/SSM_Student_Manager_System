@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58e27110-e660-4007-b67e-094198113f32" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/ylcto/student/action/StudentAction.class" afterPath="$PROJECT_DIR$/target/classes/cn/ylcto/student/action/StudentAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/action/StudentAction.class" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/action/StudentAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/dao/IStudentDAO.class" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/dao/IStudentDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/dao/impl/StudentDAOImpl.class" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/dao/impl/StudentDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/service/IStudentService.class" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/service/IStudentService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/service/impl/StudentServiceImpl.class" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/cn/ylcto/student/service/impl/StudentServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../docs/chapter04_Student.md" afterPath="$PROJECT_DIR$/../docs/chapter04_Student.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/my.log" afterPath="$PROJECT_DIR$/logs/my.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jquery/student_list.js" afterPath="$PROJECT_DIR$/src/main/webapp/jquery/student_list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jquery/util.js" afterPath="$PROJECT_DIR$/src/main/webapp/jquery/util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/back/student/student_list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/back/student/student_list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/mapper/studentMapper.xml" afterPath="$PROJECT_DIR$/target/studentpro/WEB-INF/classes/mapper/studentMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/jquery/student_list.js" afterPath="$PROJECT_DIR$/target/studentpro/jquery/student_list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/jquery/util.js" afterPath="$PROJECT_DIR$/target/studentpro/jquery/util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/pages/back/student/student_list.jsp" afterPath="$PROJECT_DIR$/target/studentpro/pages/back/student/student_list.jsp" />
-    </list>
+    <list default="true" id="58e27110-e660-4007-b67e-094198113f32" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="util.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="util.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/util.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="135" column="1" lean-forward="true" selection-start-line="107" selection-start-column="0" selection-end-line="135" selection-end-column="1" />
+            <state relative-caret-position="407">
+              <caret line="127" column="17" lean-forward="true" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
               <folding>
                 <marker date="1498911226059" expanded="true" signature="1326:1341" ph="..." />
                 <marker date="1498911226059" expanded="true" signature="1787:1802" ph="..." />
@@ -58,21 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="student_list.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="student_list.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/student_list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-423">
-              <caret line="67" column="46" lean-forward="true" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ylcto/student/action/StudentAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="43" />
+            <state relative-caret-position="152">
+              <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -1200,7 +1172,7 @@
       <workItem from="1498820736894" duration="5758000" />
       <workItem from="1498829541194" duration="365000" />
       <workItem from="1498829936298" duration="1269000" />
-      <workItem from="1498869136413" duration="29207000" />
+      <workItem from="1498869136413" duration="29441000" />
     </task>
     <servers />
   </component>
@@ -1237,10 +1209,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122938000" />
+    <option name="totallyTimeSpent" value="123172000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1600,11 +1572,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/back/student/student_list.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1652">
-          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="407">
+          <caret line="127" column="17" lean-forward="true" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+          <folding>
+            <marker date="1498911226059" expanded="true" signature="1326:1341" ph="..." />
+            <marker date="1498911226059" expanded="true" signature="1787:1802" ph="..." />
+            <marker date="1498911226059" expanded="true" signature="2355:2370" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1616,23 +1592,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/student_list.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/back/student/student_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-423">
-          <caret line="67" column="46" lean-forward="true" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+        <state relative-caret-position="725">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/util.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/student_list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="135" column="1" lean-forward="true" selection-start-line="107" selection-start-column="0" selection-end-line="135" selection-end-column="1" />
-          <folding>
-            <marker date="1498911226059" expanded="true" signature="1326:1341" ph="..." />
-            <marker date="1498911226059" expanded="true" signature="1787:1802" ph="..." />
-            <marker date="1498911226059" expanded="true" signature="2355:2370" ph="..." />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="99" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1072,6 +1072,8 @@
 2. 批量删除操作
 
    ```javascript
+   setDelete($("#deleteBtn"),$("input[id='sid']"),"pages/back/student/student_delete.action");
+   <-------------------------------------分割线--------------------------------------->
    //实现批量删除功能
    function setDelete(btn, ele, url){
        btn.on("click",function () {
