@@ -8,13 +8,8 @@ $(function () {
             var name = $("#name").val();
             var age = $("#age").val();
             var address = $("#address").val();
-            var sex = $("sex").val();
-            var cid = $("classes").val();
-            if(sex == "男"){
-                sex = 1;
-            }else{
-                sex = 0;
-            }
+            var sex = $("#sex").val();
+            var cid = $("#classes").val();
             $.post("pages/back/student/student_update.action",{"sid":sid,"name":name,"age":age,"address":address,"sex":sex,"classes.cid":cid},function(obj){
                 if(obj.trim() == "true"){
                     $("#alertDiv").attr("class","alert alert-success");
@@ -22,7 +17,7 @@ $(function () {
                     $("#sid-"+sid).text(sid);
                     $("#name-"+sid).text(name);
                     $("#age-"+sid).text(age);
-                    $("#sex-"+sid).text(sex);
+
                     $("#address-"+sid).text(address);
 
                 }else{
@@ -63,7 +58,7 @@ function loadData() { //定义数据读取的操作函数
             }else{
                 sex = "女";
             }
-            addRow(obj.allStudent[x].sid,obj.allStudent[x].name,obj.allStudent[x].age,sex,obj.allStudent[x].address,obj.allStudent[x].cid);
+            addRow(obj.allStudent[x].sid,obj.allStudent[x].name,obj.allStudent[x].age,sex,obj.allStudent[x].address,obj.allStudent[x].classes.cid);
         }
        createSplitBar(obj.allRecorders);
     },"json");
@@ -82,7 +77,6 @@ function addRow(sid,name,age,sex,address,cid){
     $("#"+sid+"-"+cid).on("click",function () {
         $("#ssid").text(sid);
         $("#name").val(name);
-        $("sex").val(sex);
         $("#age").val(age);
         $("#address").val(address);
         loadClasses(cid);
@@ -92,14 +86,14 @@ function addRow(sid,name,age,sex,address,cid){
 
 function loadClasses(cid) {
     $.post("pages/back/classes/classes_list.action",{},function (obj) {
-        $("#classes tr:gt(0)").remove();
+        $("#classes\\.cid tr:gt(0)").remove();
+        alert(obj.allClasses.length);
         for (var x = 0;x <obj.allClasses.length;x++){
-            if(obj.allClasses[x].cid == cid){
-                $("#classes").append($("<option value='"+obj.allClasses[x].cid+"' selected>"+obj.allClasses[x].cname+"</option>"));
-            }else{
-                $("#classes").append($("<option value='"+obj.allClasses[x].cid+"'>"+obj.allClasses[x].cname+"</option>"));
+            if (obj.allClasses[x].cid== cid){
+                $("#classes").append($("<option value='" + obj.allClasses[x].cid + "' selected>" + obj.allClasses[x].cname + "</option>"));
+            }else {
+                $("#classes").append($("<option value='" + obj.allClasses[x].cid + "'>" + obj.allClasses[x].cname + "</option>"));
             }
-
         }
     },"json");
 }
