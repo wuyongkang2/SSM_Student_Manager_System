@@ -54,7 +54,7 @@
                         <div class="form-group">
                             <label class="control-label col-md-3">班级编号</label>
                             <div class=col-md-5>
-                                <select name="classes.cid" id="classes" class="form-control" ></select>
+                                <select name="classes.cid" id="classes.cid" class="form-control" ></select>
                             </div>
                         </div>
 

@@ -28,4 +28,10 @@ function addRow(sid,name,age,sex,address,cid){
         "<td class='text-center'><button type='button' class='btn btn-success btn-sm' data-toggle='modal' data-target='#studentInfo' id='"+ sid +"-"+ cid +"'>更新</button> </td>" +
         "</tr>";
     $("#studentTable").append($(str));
+    $("#"+sid+"-"+cid).on("click",function () {
+        $("#ssid").text(sid);
+        $("#name").val(name);
+        $("#age").val(age);
+        $("#address").val(address);
+    })
 }
