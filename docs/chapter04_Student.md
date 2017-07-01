@@ -490,7 +490,7 @@
 
        <!-- 编写分页操作 -->
        <select id="findBySplit" parameterType="java.util.Map" resultMap="studentResultMap">
-         SELECT sid,name,age,sex,address FROM student LIMIT ${start},#{lineSize}
+         SELECT sid,name,age,sex,address,cid FROM student LIMIT ${start},#{lineSize}
        </select>
 
        <!-- 统计全部数据量 -->

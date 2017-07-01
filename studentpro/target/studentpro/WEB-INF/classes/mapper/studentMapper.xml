@@ -17,16 +17,15 @@
         INSERT INTO student(sid,name,age,sex,address,cid)VALUES (#{sid},#{name},#{age},#{sex},#{address},#{classes.cid})
     </insert>
 
-    <!-- 编写分页操作 -->
-    <select id="findBySplit" parameterType="java.util.Map" resultMap="studentResultMap">
-      SELECT sid,name,age,sex,address FROM student LIMIT ${start},#{lineSize}
-    </select>
-
     <!-- 实现数据更新操作 -->
     <update id="doUpdate" parameterType="Student">
         UPDATE student SET name=#{name},age=#{age},sex=#{sex},address=#{address},cid=#{classes.cid} WHERE sid=#{sid}
     </update>
 
+    <!-- 编写分页操作 -->
+    <select id="findBySplit" parameterType="java.util.Map" resultMap="studentResultMap">
+        SELECT sid,name,age,sex,address,cid FROM student LIMIT ${start},#{lineSize}
+    </select>
 
     <!-- 统计全部数据量 -->
     <select id="getAllCount" parameterType="java.util.Map" resultType="Integer">
