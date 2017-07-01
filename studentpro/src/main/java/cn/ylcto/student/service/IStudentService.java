@@ -23,7 +23,7 @@ public interface IStudentService {
      * @return
      * @throws Exception
      */
-    public Map<String,Object> listSplit(int currentPage,int lineSize) throws Exception;
+    public Map<String,Object> listSplit(int currentPage, int lineSize) throws Exception;
 
     /**
      * 实现数据更新操作方法

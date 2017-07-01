@@ -857,8 +857,8 @@
 
                    <div class="form-group">
                        <div class="col-md-4 col-md-offset-6">
-                           <button type="submit" class="btn btn-success btn-sm">增加</button>
-                           <button type="reset" class="btn btn-danger btn-sm">重置</button>
+                           <input type="hidden" name="sex" id="sex" />
+                           <button type="submit" class="btn btn-success btn-sm">修改</button>
                        </div>
                    </div>
                </form>
@@ -881,4 +881,5 @@
    }
    addRow(obj.allStudent[x].sid,obj.allStudent[x].name,obj.allStudent[x].age,sex,obj.allStudent[x].address);
    ```
+
 
