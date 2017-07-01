@@ -882,4 +882,9 @@
    addRow(obj.allStudent[x].sid,obj.allStudent[x].name,obj.allStudent[x].age,sex,obj.allStudent[x].address);
    ```
 
+3. 绑定事件
+
+   ```javascript
+   <button type='button' class='btn btn-success btn-sm' data-toggle='modal' data-target='#studentInfo' id='"+ sid +"-"+ cid +"'>更新</button>
+   ```
 
