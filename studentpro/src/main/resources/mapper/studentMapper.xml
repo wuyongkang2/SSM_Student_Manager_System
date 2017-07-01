@@ -28,7 +28,7 @@
         <where>
             sid IN
             <foreach collection="list" item="ele" open="(" close=")" separator=",">
-                ${ele}
+                '${ele}'
             </foreach>
         </where>
     </delete>

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58e27110-e660-4007-b67e-094198113f32" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/IStudentDAO.java" afterPath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/IStudentDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/impl/StudentDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/impl/StudentDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/service/IStudentService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/service/IStudentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/service/impl/StudentServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cn/ylcto/student/service/impl/StudentServiceImpl.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cn/ylcto/test/StudentServiceTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/my.log" afterPath="$PROJECT_DIR$/logs/my.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/test/cn/ylcto/test/StudentServiceTest.java" afterPath="$PROJECT_DIR$/src/main/test/cn/ylcto/test/StudentServiceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StudentServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ylcto/student/service/impl/StudentServiceImpl.java">
+      <file leaf-file-name="StudentServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/test/cn/ylcto/test/StudentServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="106">
+              <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -107,7 +107,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/jquery/student_insert.js" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/classesMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jquery/classes_list.js" />
-        <option value="$PROJECT_DIR$/src/main/test/cn/ylcto/test/StudentServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/action/AdminLoginAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/util/action/DefaultAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/action/StudentAction.java" />
@@ -115,11 +114,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/back/student/student_list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jquery/student_list.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/IStudentDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/impl/StudentDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/service/IStudentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/service/impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/test/cn/ylcto/test/StudentServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml" />
       </list>
     </option>
   </component>
@@ -327,6 +327,96 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ylcto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testJson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studentpro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studentpro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ylcto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studentpro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studentpro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studentpro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studentpro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -498,33 +588,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0">
-    <configuration default="false" name="ClassesServiceTest.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.ylcto.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="studentpro" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.ylcto.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.ylcto.test.ClassesServiceTest" />
-      <option name="METHOD_NAME" value="list" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.StudentServiceTest.delete">
     <configuration default="false" name="TestAdmin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -610,6 +674,32 @@
       <option name="PACKAGE_NAME" value="cn.ylcto.test" />
       <option name="MAIN_CLASS_NAME" value="cn.ylcto.test.StudentServiceTest" />
       <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StudentServiceTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.ylcto.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="studentpro" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.ylcto.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.ylcto.test.StudentServiceTest" />
+      <option name="METHOD_NAME" value="delete" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1097,19 +1187,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.0" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ClassesServiceTest.list" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestAdmin" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.StudentServiceTest.insert" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.StudentServiceTest.list" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.StudentServiceTest.update" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestAdmin" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StudentServiceTest.insert" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StudentServiceTest.list" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StudentServiceTest.update" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.StudentServiceTest.delete" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.StudentServiceTest.update" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StudentServiceTest.list" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StudentServiceTest.insert" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestAdmin" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ClassesServiceTest.list" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StudentServiceTest.delete" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StudentServiceTest.update" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StudentServiceTest.list" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StudentServiceTest.insert" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestAdmin" />
       </list>
     </recent_temporary>
   </component>
@@ -1149,19 +1239,19 @@
       <workItem from="1498820736894" duration="5758000" />
       <workItem from="1498829541194" duration="365000" />
       <workItem from="1498829936298" duration="1269000" />
-      <workItem from="1498869136413" duration="18406000" />
+      <workItem from="1498869136413" duration="20138000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentServiceTest_insert - 2017.06.30 at 09h 33m 04s.xml">
-      <configuration name="StudentServiceTest.insert" configurationId="JUnit" />
+    <history-entry file="StudentServiceTest_delete - 2017.07.01 at 15h 15m 41s.xml">
+      <configuration name="StudentServiceTest.delete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentServiceTest_insert - 2017.06.30 at 10h 25m 08s.xml">
-      <configuration name="StudentServiceTest.insert" configurationId="JUnit" />
+    <history-entry file="StudentServiceTest_delete - 2017.07.01 at 15h 17m 36s.xml">
+      <configuration name="StudentServiceTest.delete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentServiceTest_list - 2017.06.30 at 12h 00m 05s.xml">
-      <configuration name="StudentServiceTest.list" configurationId="JUnit" />
+    <history-entry file="StudentServiceTest_delete - 2017.07.01 at 15h 22m 36s.xml">
+      <configuration name="StudentServiceTest.delete" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StudentServiceTest_list - 2017.06.30 at 12h 01m 21s.xml">
       <configuration name="StudentServiceTest.list" configurationId="JUnit" />
@@ -1186,11 +1276,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112137000" />
+    <option name="totallyTimeSpent" value="113869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1212,7 +1301,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30114567" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8183306" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2700454" sideWeight="0.82160395" order="0" side_tool="false" content_ui="combo" />
@@ -1244,13 +1333,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="55" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1402,13 +1484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/cn/ylcto/test/StudentServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="45" column="31" lean-forward="false" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1531,20 +1606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <marker date="1498887309983" expanded="true" signature="695:807" ph="INSERT INTO student... " />
-            <marker date="1498887309983" expanded="true" signature="904:1012" ph="UPDATE stude... " />
-            <marker date="1498887309983" expanded="true" signature="1114:1133" ph="DELETE FROM " />
-            <marker date="1498887309983" expanded="true" signature="1448:1523" ph="SELECT sid,n... student" />
-            <marker date="1498887309983" expanded="true" signature="1649:1679" ph="SELECT COUNT... student" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/ylcto/student/dao/IStudentDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
@@ -1571,8 +1632,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/ylcto/student/service/impl/StudentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="314">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/cn/ylcto/test/TestMD5Code.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding>
+            <marker date="1498893746957" expanded="true" signature="695:807" ph="INSERT INTO student... " />
+            <marker date="1498893746957" expanded="true" signature="904:1012" ph="UPDATE stude... " />
+            <marker date="1498893746957" expanded="true" signature="1114:1133" ph="DELETE FROM " />
+            <marker date="1498893746957" expanded="true" signature="1450:1525" ph="SELECT sid,n... student" />
+            <marker date="1498893746957" expanded="true" signature="1651:1681" ph="SELECT COUNT... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/cn/ylcto/test/StudentServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
           <folding />
         </state>
       </provider>

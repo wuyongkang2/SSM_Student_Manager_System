@@ -8,6 +8,8 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 
@@ -54,4 +56,12 @@ public class StudentServiceTest {
         vo.setClasses(classes);
         TestCase.assertTrue(this.studentService.update(vo));
     }
+
+    @Test
+    public void delete() throws Exception {
+        List<String> all = new ArrayList<>();
+        all.add("YLCTO95653");
+        TestCase.assertTrue(this.studentService.delete(all));
+    }
+
 }

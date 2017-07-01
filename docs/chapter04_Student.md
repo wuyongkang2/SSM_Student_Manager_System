@@ -965,7 +965,7 @@
        <where>
            sid IN
            <foreach collection="list" item="ele" open="(" close=")" separator=",">
-               ${ele}
+               '${ele}'
            </foreach>
        </where>
    </delete>
@@ -1014,3 +1014,15 @@
        return this.studentDAO.doRemoveBatch(ids);
    }
    ```
+
+3. 使用JUNIT测试删除数据
+
+   ```java
+   @Test
+   public void delete() throws Exception {
+       List<String> all new ArrayList<>();
+       all.add("YLCTO95653");
+       TestCase.assertTrue(this.studentService.delete(all));
+   }
+   ```
+
