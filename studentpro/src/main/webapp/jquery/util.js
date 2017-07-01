@@ -96,3 +96,41 @@ function calcPageSize(allRecorders) {   // 计算总页数
         jsCommonPageSize = parseInt((allRecorders + jsCommonLs - 1) / jsCommonLs);
     }
 }
+
+//表示实现全选功能
+function setSelectAll(eleA,eleB){
+    eleA.on("click",function () {
+        eleB.each(function () {
+            this.checked = eleA.prop("checked");
+        })
+    })
+}
+//实现批量删除功能
+function setDelete(btn, ele, url){
+    btn.on("click",function () {
+        var data = "";
+        ele.each(function () {
+            if(this.checked){
+                data += this.value + "|";
+            }
+        });
+        if(data == ""){
+            alert("请选择数据后操作");
+        }else{
+            $.post(url,{"ids":data},function(obj){
+                if(obj.trim() == "true"){
+                    $("#alertDiv").attr("class","alert alert-success");
+                    $("#alertText").text("学生信息删除成功");
+                    loadData(); //重新加载数据
+                }else{
+                    $("#alertDiv").attr("class","alert alert-danger");
+                    $("#alertText").text("学生信息删除失败");
+                }
+                $("#studentInfo").modal("hide");
+                $("#alertDiv").fadeIn(2000,function () {
+                    $("#alertDiv").fadeOut(2000);
+                });
+            },"text");
+        }
+    });
+}

@@ -17,7 +17,7 @@
     <div class="col-md-12">
         <table class="table table-bordered table-hover" id="studentTable">
             <tr>
-                <th class="text-center"><input type="checkbox" name="" id="" /></th>
+                <th class="text-center"><input type="checkbox" name="selall" id="selall" /></th>
                 <th class="text-center">学生编号</th>
                 <th class="text-center">学生名字</th>
                 <th class="text-center">学生年龄</th>
@@ -26,6 +26,7 @@
                 <th class="text-center">操作</th>
             </tr>
         </table>
+        <button class="btn btn-danger btn-sm" id="deleteBtn">批量删除</button>
         <div class="text-right">
             <ul class="pagination pagination-sm" id="pagecontrol"></ul>
         </div>

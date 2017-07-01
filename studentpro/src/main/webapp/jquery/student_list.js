@@ -17,9 +17,8 @@ $(function () {
                     $("#sid-"+sid).text(sid);
                     $("#name-"+sid).text(name);
                     $("#age-"+sid).text(age);
-
                     $("#address-"+sid).text(address);
-
+                    loadData(); //重新加载数据
                 }else{
                     $("#alertDiv").attr("class","alert alert-danger");
                     $("#alertText").text("学生信息修改失败");
@@ -60,7 +59,9 @@ function loadData() { //定义数据读取的操作函数
             }
             addRow(obj.allStudent[x].sid,obj.allStudent[x].name,obj.allStudent[x].age,sex,obj.allStudent[x].address,obj.allStudent[x].classes.cid);
         }
-       createSplitBar(obj.allRecorders);
+        createSplitBar(obj.allRecorders);
+        setSelectAll($("#selall"),$("input[id='sid']"));
+        setDelete($("#deleteBtn"),$("input[id='sid']"),"pages/back/student/student_delete.action");
     },"json");
 }
 
