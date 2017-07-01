@@ -915,3 +915,21 @@
        },"json");
    }
    ```
+
+5. 实现更新操作
+
+   ```javascript
+   $.post("pages/back/student/student_update.action",{"sid":sid,"name":name,"age":age,"address":address,"sex":sex,"classes.cid":cid},function(obj){
+       if(obj.trim() == "true"){
+           $("#alertDiv").attr("class","alert alert-success");
+           $("#alertText").text("学生信息修改成功");
+       }else{
+           $("#alertDiv").attr("class","alert alert-danger");
+           $("#alertText").text("学生信息修改失败");
+       }
+       $("#studentInfo").modal("hide");
+       $("#alertDiv").fadeIn(2000,function () {
+           $("#alertDiv").fadeOut(2000);
+       });
+   },"text");
+   ```

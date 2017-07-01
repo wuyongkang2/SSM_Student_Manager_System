@@ -1,5 +1,45 @@
 $(function () {
     loadData();
+    $("#updateForm").validate({ // 定义验证规则
+        debug: true,  // 采用调试模式，表单不会自动提交
+        submitHandler: function (form) {    // 当前表单对象
+            form.submit(); // 手工提交，如果不需要手工提交，可以在此处进行异步处理
+            var sid = $("#ssid").text();
+            var name = $("#name").val();
+            var age = $("#age").val();
+            var address = $("#address").val();
+            var sex = $("sex").val();
+            var cid = $("classes").val();
+            $.post("pages/back/student/student_update.action",{"sid":sid,"name":name,"age":age,"address":address,"sex":sex,"classes.cid":cid},function(obj){
+                if(obj.trim() == "true"){
+                    $("#alertDiv").attr("class","alert alert-success");
+                    $("#alertText").text("学生信息修改成功");
+                }else{
+                    $("#alertDiv").attr("class","alert alert-danger");
+                    $("#alertText").text("学生信息修改失败");
+                }
+                $("#studentInfo").modal("hide");
+                $("#alertDiv").fadeIn(2000,function () {
+                    $("#alertDiv").fadeOut(2000);
+                });
+            },"text");
+        },
+        rules: {   // 为每一个表单编写验证规则
+            "sid": {
+                required: true,  // 此字段不允许为空
+            },
+            "cname": {
+                required: true,  // 此字段不允许为空
+            },
+            "age": {
+                required: true,  // 此字段不允许为空
+            },
+            "address": {
+                required: true,  // 此字段不允许为空
+            }
+
+        }
+    });
 })
 
 function loadData() { //定义数据读取的操作函数

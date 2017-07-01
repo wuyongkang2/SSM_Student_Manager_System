@@ -27,9 +27,11 @@
             </tr>
         </table>
         <div class="text-right">
-            <ul class="pagination pagination-sm" id="pagecontrol">
-
-            </ul>
+            <ul class="pagination pagination-sm" id="pagecontrol"></ul>
+        </div>
+        <div class="alert alert-success" id="alertDiv">
+            <button class="close" data-dismiss="alert">&times;</button>
+            <span id="alertText"></span>
         </div>
     </div>
 
@@ -37,7 +39,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button class="close">&times;</button>
+                    <button class="close" data-dismiss="modal">&times;</button>
                     <h3 class="modal-title">修改学生信息</h3>
                 </div>
                 <div class="modal-body">
