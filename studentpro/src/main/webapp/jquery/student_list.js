@@ -33,5 +33,21 @@ function addRow(sid,name,age,sex,address,cid){
         $("#name").val(name);
         $("#age").val(age);
         $("#address").val(address);
-    })
+        loadClasses(cid);
+    });
+}
+
+
+function loadClasses(cid) {
+    $.post("pages/back/classes/classes_list.action",{},function (obj) {
+        $("#classes tr:gt(0)").remove();
+        for (var x = 0;x <obj.allClasses.length;x++){
+            if(obj.allClasses[x].cid == cid){
+                $("#classes").append($("<option value='"+obj.allClasses[x].cid+"' selected>"+obj.allClasses[x].cname+"</option>"));
+            }else{
+                $("#classes").append($("<option value='"+obj.allClasses[x].cid+"'>"+obj.allClasses[x].cname+"</option>"));
+            }
+
+        }
+    },"json");
 }

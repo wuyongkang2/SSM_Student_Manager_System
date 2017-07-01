@@ -888,3 +888,14 @@
    <button type='button' class='btn btn-success btn-sm' data-toggle='modal' data-target='#studentInfo' id='"+ sid +"-"+ cid +"'>更新</button>
    ```
 
+4. 实现模态窗口填充
+
+   ```javascript
+   $("#"+sid+"-"+cid).on("click",function () {
+       $("#ssid").text(sid);
+       $("#name").val(name);
+       $("#age").val(age);
+       $("#address").val(address);
+   });
+   ```
+
