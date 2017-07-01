@@ -3,17 +3,28 @@ $(function () {
     $("#updateForm").validate({ // 定义验证规则
         debug: true,  // 采用调试模式，表单不会自动提交
         submitHandler: function (form) {    // 当前表单对象
-            form.submit(); // 手工提交，如果不需要手工提交，可以在此处进行异步处理
+            // form.submit(); // 手工提交，如果不需要手工提交，可以在此处进行异步处理
             var sid = $("#ssid").text();
             var name = $("#name").val();
             var age = $("#age").val();
             var address = $("#address").val();
             var sex = $("sex").val();
             var cid = $("classes").val();
+            if(sex == "男"){
+                sex = 1;
+            }else{
+                sex = 0;
+            }
             $.post("pages/back/student/student_update.action",{"sid":sid,"name":name,"age":age,"address":address,"sex":sex,"classes.cid":cid},function(obj){
                 if(obj.trim() == "true"){
                     $("#alertDiv").attr("class","alert alert-success");
                     $("#alertText").text("学生信息修改成功");
+                    $("#sid-"+sid).text(sid);
+                    $("#name-"+sid).text(name);
+                    $("#age-"+sid).text(age);
+                    $("#sex-"+sid).text(sex);
+                    $("#address-"+sid).text(address);
+
                 }else{
                     $("#alertDiv").attr("class","alert alert-danger");
                     $("#alertText").text("学生信息修改失败");
@@ -52,7 +63,7 @@ function loadData() { //定义数据读取的操作函数
             }else{
                 sex = "女";
             }
-            addRow(obj.allStudent[x].sid,obj.allStudent[x].name,obj.allStudent[x].age,sex,obj.allStudent[x].address,obj.allStudent[x].classes.cid);
+            addRow(obj.allStudent[x].sid,obj.allStudent[x].name,obj.allStudent[x].age,sex,obj.allStudent[x].address,obj.allStudent[x].cid);
         }
        createSplitBar(obj.allRecorders);
     },"json");
@@ -60,17 +71,18 @@ function loadData() { //定义数据读取的操作函数
 
 function addRow(sid,name,age,sex,address,cid){
     var str = "<tr><td><input type='checkbox' class='text-center' name='sid' id='sid' value='"+sid+"'></td>" +
-        "<td class='text-center'>"+sid+"</td>" +
-        "<td class='text-center'>"+name+"</td>" +
-        "<td class='text-center'>"+age+"</td>" +
-        "<td class='text-center'>"+sex+"</td>" +
-        "<td class='text-center'>"+address+"</td>" +
+        "<td class='text-center' id='sid-"+sid+"'>"+sid+"</td>" +
+        "<td class='text-center' id='name-"+sid+"'>"+name+"</td>" +
+        "<td class='text-center' id ='age-"+sid+"'>"+age+"</td>" +
+        "<td class='text-center' id='sex-"+sid+"'>"+sex+"</td>" +
+        "<td class='text-center' id='address-"+sid+"'>"+address+"</td>" +
         "<td class='text-center'><button type='button' class='btn btn-success btn-sm' data-toggle='modal' data-target='#studentInfo' id='"+ sid +"-"+ cid +"'>更新</button> </td>" +
         "</tr>";
     $("#studentTable").append($(str));
     $("#"+sid+"-"+cid).on("click",function () {
         $("#ssid").text(sid);
         $("#name").val(name);
+        $("sex").val(sex);
         $("#age").val(age);
         $("#address").val(address);
         loadClasses(cid);

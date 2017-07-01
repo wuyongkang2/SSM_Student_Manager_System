@@ -29,8 +29,9 @@
         <div class="text-right">
             <ul class="pagination pagination-sm" id="pagecontrol"></ul>
         </div>
+        <!-- 信息提示 -->
         <div class="alert alert-success" id="alertDiv">
-            <button class="close" data-dismiss="alert">&times;</button>
+            <button class="close">&times;</button>
             <span id="alertText"></span>
         </div>
     </div>
@@ -98,7 +99,6 @@
             </div>
         </div>
     </div>
-
 </div>
 <jsp:include page="/pages/footer.jsp" />
 <script src="jquery/jquery.validate.min.js"></script>

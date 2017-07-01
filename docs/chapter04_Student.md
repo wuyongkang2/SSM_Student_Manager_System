@@ -808,66 +808,68 @@
 
    ```html
    <div class="modal" id="studentInfo">
-       <div class="modal-dialog">
-           <div class="modal-header">
-               <button class="close">&times;</button>
-               <h3 class="modal-title">修改学生信息</h3>
-           </div>
-           <div class="modal-body">
-               <form method="post" class="form-horizontal" id="updateForm">
-                   <!-- 学生编号 -->
-                   <div class="form-group">
-                       <label class="control-label col-md-3">学生编号</label>
-                       <div class=col-md-5>
-                           <span id="ssid"></span>
-                       </div>
+           <div class="modal-dialog">
+               <div class="modal-content">
+                   <div class="modal-header">
+                       <button class="close" data-dismiss="modal">&times;</button>
+                       <h3 class="modal-title">修改学生信息</h3>
                    </div>
+                   <div class="modal-body">
+                       <form method="post" class="form-horizontal" id="updateForm">
+                           <!-- 学生编号 -->
+                           <div class="form-group">
+                               <label class="control-label col-md-3">学生编号</label>
+                               <div class=col-md-5>
+                                   <span id="ssid"></span>
+                               </div>
+                           </div>
 
-                   <!-- 班级编号 -->
-                   <div class="form-group">
-                       <label for="sid" class="control-label col-md-3">班级编号</label>
-                       <div class=col-md-5>
-                           <select name="classes.cid" id="classes.cid" class="form-control" ></select>
-                       </div>
-                   </div>
+                           <!-- 班级编号 -->
+                           <div class="form-group">
+                               <label class="control-label col-md-3">班级编号</label>
+                               <div class=col-md-5>
+                                   <select name="classes.cid" id="classes" class="form-control" ></select>
+                               </div>
+                           </div>
 
-                   <!-- 学生姓名 -->
-                   <div class="form-group">
-                       <label for="name" class="control-label col-md-3">学生姓名</label>
-                       <div class=col-md-5>
-                           <input type="text" class="form-control" name="name" id="name" placeholder="请输入学生姓名">
-                       </div>
-                   </div>
+                           <!-- 学生姓名 -->
+                           <div class="form-group">
+                               <label for="name" class="control-label col-md-3">学生姓名</label>
+                               <div class=col-md-5>
+                                   <input type="text" class="form-control" name="name" id="name" placeholder="请输入学生姓名">
+                               </div>
+                           </div>
 
-                   <!-- 学生年龄 -->
-                   <div class="form-group">
-                       <label for="age" class="control-label col-md-3">学生年龄</label>
-                       <div class=col-md-5>
-                           <input type="text" class="form-control" name="age" id="age" placeholder="请输入学生年龄">
-                       </div>
-                   </div>
+                           <!-- 学生年龄 -->
+                           <div class="form-group">
+                               <label for="age" class="control-label col-md-3">学生年龄</label>
+                               <div class=col-md-5>
+                                   <input type="text" class="form-control" name="age" id="age" placeholder="请输入学生年龄">
+                               </div>
+                           </div>
 
-                   <!-- 联系地址 -->
-                   <div class="form-group">
-                       <label for="address" class="control-label col-md-3">联系地址</label>
-                       <div class=col-md-5>
-                           <input type="text" class="form-control" name="address" id="address" placeholder="请输入联系地址">
-                       </div>
-                   </div>
+                           <!-- 联系地址 -->
+                           <div class="form-group">
+                               <label for="address" class="control-label col-md-3">联系地址</label>
+                               <div class=col-md-5>
+                                   <input type="text" class="form-control" name="address" id="address" placeholder="请输入联系地址">
+                               </div>
+                           </div>
 
-                   <div class="form-group">
-                       <div class="col-md-4 col-md-offset-6">
-                           <input type="hidden" name="sex" id="sex" />
-                           <button type="submit" class="btn btn-success btn-sm">修改</button>
-                       </div>
+                           <div class="form-group">
+                               <div class="col-md-4 col-md-offset-6">
+                                   <input type="hidden" name="sex" id="sex" />
+                                   <button type="submit" class="btn btn-success btn-sm">修改</button>
+                               </div>
+                           </div>
+                       </form>
                    </div>
-               </form>
-           </div>
-           <div class="modal-footer">
-               <button class="btn btn-success btn-sm" data-dismiss="modal">关闭编辑窗口</button>
+                   <div class="modal-footer">
+                       <button class="btn btn-success btn-sm" data-dismiss="modal">关闭编辑窗口</button>
+                   </div>
+               </div>
            </div>
        </div>
-   </div>
    ```
 
 2. 修改表单中的性别字段显示效果
@@ -892,11 +894,13 @@
 
    ```javascript
    $("#"+sid+"-"+cid).on("click",function () {
-       $("#ssid").text(sid);
-       $("#name").val(name);
-       $("#age").val(age);
-       $("#address").val(address);
-   });
+           $("#ssid").text(sid);
+           $("#name").val(name);
+           $("sex").val(sex);
+           $("#age").val(age);
+           $("#address").val(address);
+           loadClasses(cid);
+       });
    ```
 
 
@@ -920,16 +924,32 @@
 
    ```javascript
    $.post("pages/back/student/student_update.action",{"sid":sid,"name":name,"age":age,"address":address,"sex":sex,"classes.cid":cid},function(obj){
-       if(obj.trim() == "true"){
-           $("#alertDiv").attr("class","alert alert-success");
-           $("#alertText").text("学生信息修改成功");
-       }else{
-           $("#alertDiv").attr("class","alert alert-danger");
-           $("#alertText").text("学生信息修改失败");
-       }
-       $("#studentInfo").modal("hide");
-       $("#alertDiv").fadeIn(2000,function () {
-           $("#alertDiv").fadeOut(2000);
-       });
-   },"text");
+                   if(obj.trim() == "true"){
+                       $("#alertDiv").attr("class","alert alert-success");
+                       $("#alertText").text("学生信息修改成功");
+                       $("#sid-"+sid).text(sid);
+                       $("#name-"+sid).text(name);
+                       $("#age-"+sid).text(age);
+                       $("#sex-"+sid).text(sex);
+                       $("#address-"+sid).text(address);
+
+                   }else{
+                       $("#alertDiv").attr("class","alert alert-danger");
+                       $("#alertText").text("学生信息修改失败");
+                   }
+                   $("#studentInfo").modal("hide");
+                   $("#alertDiv").fadeIn(2000,function () {
+                       $("#alertDiv").fadeOut(2000);
+                   });
+               },"text");
+   ```
+
+6. 信息提示
+
+   ```html
+   <!-- 信息提示 -->
+   <div class="alert alert-success" id="alertDiv">
+       <button class="close">&times;</button>
+       <span id="alertText"></span>
+   </div>
    ```

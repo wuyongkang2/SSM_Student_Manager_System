@@ -30,7 +30,7 @@
             <ul class="pagination pagination-sm" id="pagecontrol"></ul>
         </div>
         <div class="alert alert-success" id="alertDiv">
-            <button class="close" data-dismiss="alert">&times;</button>
+            <button class="close">&times;</button>
             <span id="alertText"></span>
         </div>
     </div>
