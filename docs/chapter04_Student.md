@@ -1073,7 +1073,10 @@
 
    ```javascript
    setDelete($("#deleteBtn"),$("input[id='sid']"),"pages/back/student/student_delete.action");
-   <-------------------------------------分割线--------------------------------------->
+   ```
+
+   ```javascript
+
    //实现批量删除功能
    function setDelete(btn, ele, url){
        btn.on("click",function () {
@@ -1103,4 +1106,8 @@
            }
        });
    }
+   ```
+
+   ```html
+   <button class="btn btn-danger btn-sm" id="deleteBtn">批量删除</button>
    ```
