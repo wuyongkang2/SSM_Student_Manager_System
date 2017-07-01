@@ -2,6 +2,7 @@ package cn.ylcto.student.service;
 
 import cn.ylcto.student.vo.Student;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -32,4 +33,12 @@ public interface IStudentService {
      * @throws Exception
      */
     public boolean update(Student vo) throws Exception;
+
+    /**
+     * 实现数据批量删除操作
+     * @param ids 表示要执行删除的操作的集合数据
+     * @return
+     * @throws Exception
+     */
+    public boolean delete(List<String> ids) throws Exception;
 }

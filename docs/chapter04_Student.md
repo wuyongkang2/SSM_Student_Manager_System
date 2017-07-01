@@ -970,3 +970,47 @@
        </where>
    </delete>
    ```
+
+2. 编写数据层接口
+
+   ```java
+   /**
+    * 实现数据批量删除操作
+    * @param ids 表示要执行删除操作的集合数据
+    * @return
+    * @throws SQLException
+    */
+   public boolean doRemoveBatch(List<String> ids) throws SQLException;
+   ```
+
+3. 实现接口中的doRemoveBatch()方法
+
+   ```java
+   @Override
+   public boolean doRemoveBatch(List<String> ids) throws SQLException {
+       return super.getSqlSession().delete("StudentNS.doRemove",ids) > 0;
+   }
+   ```
+
+### 35删除学生信息（服务层实现与JUNIT测试）
+
+1. 编写服务层接口
+
+   ```
+   /**
+    * 实现数据批量删除操作
+    * @param ids 表示要执行删除的操作的集合数据
+    * @return
+    * @throws Exception
+    */
+   public boolean delete(List<String> ids) throws Exception;
+   ```
+
+2. 实现服务层接口
+
+   ```java
+   @Override
+   public boolean delete(List<String> ids) throws Exception {
+       return this.studentDAO.doRemoveBatch(ids);
+   }
+   ```
