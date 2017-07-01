@@ -22,6 +22,17 @@
         UPDATE student SET name=#{name},age=#{age},sex=#{sex},address=#{address},cid=#{classes.cid} WHERE sid=#{sid}
     </update>
 
+    <!-- 删除数据操作 -->
+    <delete id="doRemove" parameterType="java.util.List">
+        DELETE FROM student
+        <where>
+            sid IN
+            <foreach collection="list" item="ele" open="(" close=")" separator=",">
+                ${ele}
+            </foreach>
+        </where>
+    </delete>
+
     <!-- 编写分页操作 -->
     <select id="findBySplit" parameterType="java.util.Map" resultMap="studentResultMap">
         SELECT sid,name,age,sex,address,cid FROM student LIMIT ${start},#{lineSize}

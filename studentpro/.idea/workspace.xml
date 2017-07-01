@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58e27110-e660-4007-b67e-094198113f32" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jquery/student_list.js" afterPath="$PROJECT_DIR$/src/main/webapp/jquery/student_list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/jquery/student_list.js" afterPath="$PROJECT_DIR$/target/studentpro/jquery/student_list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studentpro/pages/back/student/student_list.jsp" afterPath="$PROJECT_DIR$/target/studentpro/pages/back/student/student_list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,12 +29,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="student_list.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/student_list.js">
+      <file leaf-file-name="studentMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1284">
-              <caret line="90" column="24" lean-forward="false" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="89">
+              <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="33" selection-end-column="13" />
+              <folding>
+                <marker date="1498887309983" expanded="true" signature="695:807" ph="INSERT INTO student... " />
+                <marker date="1498887309983" expanded="true" signature="904:1012" ph="UPDATE stude... " />
+                <marker date="1498887309983" expanded="true" signature="1114:1133" ph="DELETE FROM " />
+                <marker date="1498887309983" expanded="true" signature="1448:1523" ph="SELECT sid,n... student" />
+                <marker date="1498887309983" expanded="true" signature="1649:1679" ph="SELECT COUNT... student" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,9 +121,9 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/ylcto/student/action/StudentAction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jquery/util.js" />
         <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/back/student/student_list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jquery/student_list.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml" />
       </list>
     </option>
   </component>
@@ -327,12 +331,26 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="studentpro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studentpro" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -351,6 +369,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1047,7 +1073,7 @@
       <workItem from="1498820736894" duration="5758000" />
       <workItem from="1498829541194" duration="365000" />
       <workItem from="1498829936298" duration="1269000" />
-      <workItem from="1498869136413" duration="16222000" />
+      <workItem from="1498869136413" duration="16603000" />
     </task>
     <servers />
   </component>
@@ -1084,7 +1110,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109953000" />
+    <option name="totallyTimeSpent" value="110334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1417,19 +1443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <marker date="1498872806443" expanded="true" signature="695:807" ph="INSERT INTO student... " />
-            <marker date="1498872806443" expanded="true" signature="904:1012" ph="UPDATE stude... " />
-            <marker date="1498872806443" expanded="true" signature="1145:1220" ph="SELECT sid,n... student" />
-            <marker date="1498872806443" expanded="true" signature="1346:1376" ph="SELECT COUNT... student" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/classes_list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -1467,6 +1480,20 @@
         <state relative-caret-position="1284">
           <caret line="90" column="24" lean-forward="false" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <marker date="1498887309983" expanded="true" signature="695:807" ph="INSERT INTO student... " />
+            <marker date="1498887309983" expanded="true" signature="904:1012" ph="UPDATE stude... " />
+            <marker date="1498887309983" expanded="true" signature="1114:1133" ph="DELETE FROM " />
+            <marker date="1498887309983" expanded="true" signature="1448:1523" ph="SELECT sid,n... student" />
+            <marker date="1498887309983" expanded="true" signature="1649:1679" ph="SELECT COUNT... student" />
+          </folding>
         </state>
       </provider>
     </entry>

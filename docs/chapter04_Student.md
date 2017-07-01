@@ -953,3 +953,20 @@
        <span id="alertText"></span>
    </div>
    ```
+
+### 34删除学生信息（数据层实现）
+
+1. 编写studentMapper.xml文件
+
+   ```xml
+   <!-- 删除数据操作 -->
+   <delete id="doRemove" parameterType="java.util.List">
+       DELETE FROM student
+       <where>
+           sid IN
+           <foreach collection="list" item="ele" open="(" close=")" separator=",">
+               ${ele}
+           </foreach>
+       </where>
+   </delete>
+   ```
