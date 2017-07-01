@@ -44,6 +44,13 @@ public class AdminLoginAction extends DefaultAction {
         return mav;
     }
 
+    @RequestMapping(value = "admin_logout")
+    public ModelAndView logout(HttpServletRequest request){
+        ModelAndView mav = new ModelAndView(super.getResource("pages.forward"));
+        request.getSession().invalidate(); //表示session失效
+        super.setMsgAndPath(mav,"admin.logout.success","admin.logout.failure");
+        return mav;
+    }
 
     @Override
     public String getText() {

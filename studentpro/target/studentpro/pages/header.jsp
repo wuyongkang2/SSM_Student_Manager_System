@@ -47,7 +47,8 @@
                     <li><a href="#"><i class="fa fa-gear fa-fw"></i> 设置</a>
                     </li>
                     <li class="divider"></li>
-                    <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> 注销</a>
+                    <li>
+                        <a href="/pages/back/admin_logout.action"><i class="fa fa-sign-out fa-fw"></i> 注销</a>
                     </li>
                 </ul>
             </li>
