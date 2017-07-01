@@ -1026,3 +1026,26 @@
    }
    ```
 
+### 36删除学生信息（编写控制层）
+
+1. 在studentAction.java类中增加一个批量删除的方法
+
+   ```java
+   @RequestMapping(value = "student_delete")
+   public  void delete(HttpServletResponse response,HttpServletRequest request) throws Exception {
+       try {
+           String result [] = request.getParameter("ids").split("\\|");
+           List<String> all = new ArrayList<>();
+           for (int x = 0; x < result.length; x++){
+               all.add(result[x]);
+           }
+           if (all.size() > 0){
+               super.print(response,this.studentService.delete(all));
+           }else{
+               super.print(response,"false"); //删除数据不成功返回false
+           }
+       }catch (Exception e){
+           e.printStackTrace();
+       }
+   }
+   ```
