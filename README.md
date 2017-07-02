@@ -80,3 +80,5 @@
 ## 章节⑤   项目功能完善
 
 ### 2017.07.01 [38实现注销功能](/docs/chapter05_Project_perfect.md#38实现注销功能)
+
+### 2017.07.01 [39登录检查操作](/docs/chapter05_Project_perfect.md#39登录检查操作)
