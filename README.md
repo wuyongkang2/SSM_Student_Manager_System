@@ -81,4 +81,6 @@
 
 ### 2017.07.01 [38实现注销功能](/docs/chapter05_Project_perfect.md#38实现注销功能)
 
-### 2017.07.01 [39登录检查操作](/docs/chapter05_Project_perfect.md#39登录检查操作)
+### 2017.07.02 [39登录检查操作](/docs/chapter05_Project_perfect.md#39登录检查操作)
+
+### 2017.07.02 [40服务器端验证操作](/docs/chapter05_Project_perfect.md#40服务器端验证操作)

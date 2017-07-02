@@ -23,12 +23,20 @@ http://www.springframework.org/schema/mvc ">
 	<context:property-placeholder location="classpath:database.properties"/>
 	<!-- 配置Spring MVC的Annotation支持 -->
 	<mvc:annotation-driven/>
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/pages/**/*.action"/>
+			<mvc:exclude-mapping path="/pages/back/admin_login.action" />
+			<bean class="cn.ylcto.util.interceptor.ValidatorsInterceptor" />
+		</mvc:interceptor>
+	</mvc:interceptors>
 	<bean id="messageSource"
 		  class="org.springframework.context.support.ResourceBundleMessageSource">
 		<property name="basenames">
 			<array>
 				<value>Messages</value>
 				<value>Pages</value>
+				<value>Validators</value>
 			</array>
 		</property>
 	</bean>
